@@ -1,0 +1,724 @@
+/* GRUNDLAGE */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto Mono" !important;
+    background: #0f0f0f !important;
+    color: #fff !important;
+}
+
+
+/* FILLER */
+
+
+/* filler sind einfach nur Abstandshalter die man einsetzen kann um einen absatz zu setzten,
+   man kann auch einfach nur <br> einsetzten aber diese Variante ist weitaus eleganter. Zudem
+   wäre es auch möglich den folgenden Elementen einfach ne Margin Top zu vergeben, doch in
+   manchen Situationen, wie z.B. auf den Grid seiten würde es dabei zu Anzeigefehlern kommen,
+   weshalb ich mich für die filler entschieden habe. */
+
+.filler {
+    width: 100%;
+    height: 200px;
+}
+
+.filler2 {
+    width: 100%;
+    height: 100px;
+}
+
+.filler3 {
+    width: 100%;
+    height: 50px;
+}
+
+.filler4 {
+    width: 100%;
+    height: 25px;
+}
+
+.filler5 {
+    width: 100%;
+    height: 12vh;
+}
+
+.filler6 {
+    width: 100%;
+    height: 17.5vh;
+}
+
+.filler7 {
+    width: 100%;
+    height: 5vh;
+}
+
+.filler8 {
+    width: 100%;
+    height: 2.5vh;
+}
+
+.filler9 {
+    width: 100%;
+    height: 50px;
+}
+
+@media(max-width: 768px) {
+    /* die filler 1 und 2 werden im mobile view nicht angezeigt */
+    .filler,
+    .filler2 {
+        display: none;
+    }
+}
+
+
+
+/* NAVIGATION */
+
+nav {
+    width: 100%;
+    /* ganze Bildschirmbreite */
+    background: rgba(0, 0, 0, 0.75);
+    /* Schwarz mit 75% Deckkraft */
+    height: 80px;
+    /* Höhe der Navbar */
+    position: fixed;
+    /* die navbar ist scrollt mit */
+    z-index: 1;
+    /* navbar liegt über dem ganzen content und ist somit immer sichtbar (wird beim scollen nicht überdeckt) */
+}
+
+nav #logoschrift {
+    line-height: 80px;
+    /* Navigation steht in der Mitte */
+    font-weight: bold;
+    float: left;
+    /* Logo befindet sich Links */
+}
+
+nav #logo a {
+    color: #fff;
+    /* sieht nicht aus wie ein Link */
+}
+
+nav #logo a:hover {
+    text-decoration: none;
+    /* sieht nicht aus wie ein Link */
+}
+
+#logobild {
+    float: left;
+    /* Logo befindet sich Links */
+    width: 40px;
+    /* Größe des Bilds angepasst */
+    margin-left: 8%;
+    /* 8% vom linken Rand */
+    line-height: 80px;
+    /* Navigation steht in der Mitte */
+    margin-right: 20px;
+}
+
+nav #menu {
+    right: 8%;
+    /* 8% vom rechten Rand */
+    position: fixed;
+    /* Navigation geht mit dem Viewport mit */
+}
+
+nav #menu li {
+    padding-left: 60px;
+    /* Zwischen jedem Navigationselement 60px */
+    display: inline-block;
+    cursor: pointer;
+    /* Navigation ist horizontal */
+    font-weight: 400;
+    line-height: 80px;
+    /* Navigation steht in der Mitte */
+}
+
+nav #menu li a {
+    color: #fff;
+    /* sieht nicht aus wie ein Link */
+}
+
+nav #menu li a:hover {
+    text-decoration: none;
+    /* sieht nicht aus wie ein Link */
+}
+
+#toggle {
+    /* Menüöffner im Mobile View */
+    /* Positionierung */
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    /* Aussehen */
+    font-weight: 300;
+    width: 30px;
+    height: 30px;
+    float: right;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.close-btn {
+    /* Menüschließer im Mobile View */
+    /* Positionierung */
+    position: absolute;
+    right: 22px;
+    top: -2px;
+    z-index: 2;
+    /* Aussehen */
+    cursor: pointer;
+    font-weight: 300;
+    line-height: 80px;
+}
+
+#resize {
+    /* Gestaltung Menühintergrund Mobile View */
+    z-index: 1;
+    top: 0px;
+    position: fixed;
+    background: #0f0f0f;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+
+#resize #menu {
+    /* Gestaltung Menü Mobile View */
+    width: 80vw;
+    position: absolute;
+    list-style: none;
+    /* Bulletpoint sind weg */
+    /* Positionierung */
+    transform: translate(7vw, 15vh); 
+    vertical-align: center;
+}
+
+#resize #menu li {
+    /* Gestaltung Menüelemente Mobile View */
+    display: block;
+    text-align: center;
+    padding: 4vh 0;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+#resize #menu li a {
+    color: #fff;
+    /* Sieht nicht aus wie ein Link */
+    font-size: 20px;
+}
+
+#resize #menu li a:hover {
+    text-decoration: none;
+    /* Sieht nicht aus wie ein Link */
+}
+
+#resize #menu-work-mobile {
+    /* Gestaltung WorkMenü Mobile View */
+    width: 80vw;
+    position: absolute;
+    transform: translate(7vw, 75vh);
+    list-style: none;
+    /* Bulletpoint sind weg */
+    text-align: center;
+}
+
+#resize #menu-work-mobile li {
+    /* Gestaltung WorkMenüelemente Mobile View */
+    display: inline;
+    /* Die Elemente benutzen nicht mehr 100% der Breite sondern stacken gleichmäßig
+                          nebeneinander (in Verbindung mit dem text-align center in dem CSS Block hierüber) bis die Zeile voll ist */
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+#resize #menu-work-mobile li a {
+    color: #fff;
+    /* Sieht nicht aus wie ein Link */
+    font-size: 12px;
+    font-weight: 300;
+    padding: 5px;
+    /* Zwischen den Elemten ist nochmal ein kleiner Zwischenraum */
+}
+
+#resize #menu-work-mobile li a:hover {
+    text-decoration: none;
+    /* Sieht nicht aus wie ein Link */
+}
+
+#resize.active {
+    /* Wenn man auf Menu klickt, dann wird es sichtbar */
+    visibility: visible;
+    opacity: 1;
+}
+
+@media(max-width: 768px) {
+    #toggle {
+        visibility: visible;
+        opacity: 1;
+        margin-top: 6px;
+        margin-right: 4px;
+    }
+    nav #menu {
+        display: none;
+        /* Desktop Menu hidden wenn in Mobile View */
+    }
+}
+
+@media(min-width: 768px) {
+    #resize {
+        visibility: hidden;
+        /* Mobile Menu hidden wenn in Desktop View */
+    }
+}
+
+/* NAV WORK */
+
+#navwork {
+    /* Linke Navigation im Desktop View Hero Section */
+    position: fixed; 
+    /* scrollt mit */
+    left: 0%;
+    /* am linken Rand */
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.02em;
+    line-height: 5.5vh;
+    font-size: 5vh;
+    z-index: 1;
+    /* über allem anderen drüber */
+}
+
+#navwork li {
+    list-style: none;
+    /* Bulletpoint sind weg */
+    font-weight: 400;
+}
+
+#navwork li a {
+    color: rgba(255, 255, 255, 0.7);
+    transition: .3s ease-in-out;
+}
+
+#navwork li a:hover {
+    color: rgba(255, 255, 255, 1);
+    transition: .3s ease-in-out;
+    text-decoration: none;
+    /* sieht nicht aus wie ein Link */
+}
+
+@media(max-width: 1365px) {
+    #navwork {
+        line-height: 50px;
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 768px) {
+    #navwork {
+        opacity: 0;
+        display: none;
+    }
+}
+
+
+
+/* FOOTER */
+
+.horizontal-line {
+    background: rgba(255, 255, 255, 0.2);
+    height: 2px;
+}
+
+.info h4 {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.info p {
+    color: grey;
+    font-weight: 300;
+}
+
+.info a {
+    color: #fff;
+    font-weight: 300;
+}
+
+.info a:hover {
+    text-decoration: none;
+    color: #fff;
+    /* sieht nicht aus wie ein Link */
+    /* wenn man über Link hovert bleibt Farne gleich */
+}
+
+#question {
+    text-align: center;
+}
+
+#email {
+    text-align: right;
+}
+
+#imprint {
+    text-align: left;
+}
+
+#privacy-policy {
+    text-align: right;
+}
+
+@media(max-width: 768px) {
+    /* Im Mobile View alles untereinander und gecentert */
+    #instagram,
+    #question,
+    #email,
+    #privacy-policy,
+    #imprint {
+        text-align: center;
+    }
+    .info ul {
+        margin: 0 0 0 -22px;
+        padding: 0;
+    }
+}
+
+
+/* HERO */
+
+.hero {
+    /* Main Content auf der Startseite */
+    height: 100vh;
+    /* viewport height ist 100 damit immer genau das Bild / die Hero Section den ganzen Bildschirm einnimmt. */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/selected6.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+/* TYPEWRITER */
+
+.line {
+    font-size: 3vh;
+    font-weight: 200;
+    position: absolute;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    /* Cursor */
+    white-space: nowrap;
+    /* Text bleibt in einer Zeile */
+    overflow: hidden;
+    /* Text ist unsichtbar */
+    transform: translateY(29vh);
+    /* 29vh unter der Mitte */
+}
+
+@media(max-width: 768px) {
+    .line {
+        font-size: 3.5vh;
+    }
+}
+
+.anim-typewriter {
+    animation: typewriter 3s 1 both steps(40), /*    animation: Element, Animationsdauert, wiederhohlungsanzahl, animation-fill-mode, animation aufgeteilt in 40 Schritte */
+    blinkTextCursor 500ms infinite;
+    /* Element, Animationsdauer, Wiederhohlungsanzahl */
+    animation-delay: 1s;
+}
+
+@keyframes typewriter {
+    from {
+        /* Anfangszustand vom Text */
+        width: 0;
+    }
+    to {
+        /* Endzustand vom Text */
+        width: 11em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        /* Anfangszustand vom Cursor */
+        border-right-color: rgba(255, 255, 255, 0, 75);
+    }
+    to {
+        /* Endzustand vom Cursor */
+        border-right-color: transparent;
+    }
+}
+
+
+/* SCROLL ICON */
+
+.scroll-down {
+    position: absolute;
+    bottom: 10vh;
+    left: calc(50% - 7px);
+    /*(Mitte des Bildes - Hälfte des Icons)*/
+    text-align: center;
+    font-size: 20px;
+    z-index: 0;
+    text-decoration: none;
+    width: 13px;
+    height: 13px;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    /* es ist eigentlich die border eines Rechtecks, rechts und unten, welches um 45 grad gedreht ist  */
+    animation: fade_move_down 3s cubic-bezier(0.3, 1, 0.2, 1) infinite;
+    /* Name der Animation Geschwindigkeitskurve Wiederhohlungsanzahl */
+
+}
+
+@keyframes fade_move_down {
+    /* Bewegung nach unten mit veränderung der Deckkraft */
+    0% {
+        transform: translate(0, -20px) rotate(45deg);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: translate(0, 20px) rotate(45deg);
+        opacity: 0;
+    }
+}
+
+
+/* SELECTED */
+
+.selectedheading {
+    text-align: center;
+}
+
+.selectedsize {
+    height: 500px;
+}
+
+.selectedsize2 {
+    height: 800px;
+}
+
+.selected1 {
+    background: url(../img/selected1.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.selected1::after {
+    content: "roses."; 
+    /* text zum Bild */
+    font-family: "Roboto Mono";
+    font-size: 36px;
+    /* Positionierung des Textes zum Bild */
+    position: relative;  
+    color: #fff;
+    display: block;
+    top: 8%; 
+    left: -10%;  
+    right: 0;
+    bottom: 0;
+}
+
+.selected2 {
+    background: url(../img/selected2.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    /* überdeckt den ganzen container */
+}
+
+.selected2::after {
+    content: "sunshine.";
+    font-family: "Roboto Mono";
+    font-size: 36px;
+    position: relative;
+    color: #fff;
+    display: block;
+    top: 80%;
+    left: 90%;
+    right: 0;
+    bottom: 0;
+}
+
+.selected3 {
+    background: url(../img/selected3.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.selected3::after {
+    content: "flower.";
+    font-family: "Roboto Mono";
+    font-size: 36px;
+    position: relative;
+    color: #fff;
+    display: block;
+    top: 80%;
+    left: -10%;
+    right: 0;
+    bottom: 0;
+}
+
+.selected4 {
+    background: url(../img/selected4.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.selected4::after {
+    content: "color.";
+    font-family: "Roboto Mono";
+    font-size: 36px;
+    position: relative;
+    color: #fff;
+    display: block;
+    top: 10%;
+    left: 95%;
+    right: 0;
+    bottom: 0;
+}
+
+@media(max-width: 768px) {
+    .selectedsize {
+        /* Größe der Bilder im Mobile View */
+        width: 90% !important;
+        margin: 14px auto;
+    }
+    .selected1::after,
+    .selected2::after,
+    .selected3::after,
+    .selected4::after {
+        display: none; /* texte werden ausgeblendet */
+    }
+}
+
+/* WORK -> ausgelagert in work-grid.css */
+
+
+/* PHOTO GRID */
+
+.container-hover {
+    opacity: 1.0;
+    transition: .3s ease-in-out;
+}
+
+.container-hover:hover {
+    /* Hover Effekt beim Bild */
+    opacity: 0.65;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+
+/* ABOUT */
+
+/* selbserklärend, nichts neues */
+#about-image {
+    background: url(../img/creative/work-creative3.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    height: 80vh;
+    margin-top: 15vh;
+}
+
+#about-heading {
+    height: 3vh;
+    margin-top: 15vh;
+}
+
+#about-text {
+    font-size: 2vh;
+    font-weight: 300;
+    color: grey;
+}
+
+@media(max-width: 768px) {
+    #about-text {
+        font-size: 16px;
+    }
+    #about-heading, #about-text {
+        padding: 0 40px;
+    }
+}
+
+
+/* CONTACT */
+
+#contact-heading {
+    height: 3vh;
+    margin-top: 15vh;
+}
+
+#contact-text {
+    font-size: 2vh;
+    font-weight: 300;
+    color: grey;
+}
+
+#contact-form ul {
+    list-style: none; 
+    /* keine Bulletpoints */
+}
+
+#contact-form li {
+    padding: 10px; 
+    /* kleiner abstand zwischen den Namen / Zeilen */
+}
+
+#contact-form label {
+    font-size: 14px;
+    color: grey;
+    padding-left: 10px; 
+    /* Eingabeüberschriften ein wenig eingeschoben */
+}
+
+form p {
+  color: grey;
+}
+
+#contact-form input,  
+/* Eingabefeld Name, Email */
+#contact-form textarea 
+/* Eingabefeld Message */{  
+    width: 100%;
+    padding: 10px; 
+    /* Eingaben ein wenig eingeschoben */
+    border: 0.75px solid #fff;
+    background: transparent;
+    color: #fff;
+    resize: vertical; 
+    /* Fenster kann vertikal erweiter werden */
+}
+
+input:focus,
+textarea:focus {
+    outline: none; 
+    /* Ansonsten würde dort immer ein komisches Feld drum sein */
+}
+
+.send {
+    margin-left: 50px;
+    padding: 20px 30px;
+    background: transparent;
+    color: #dfdfdf;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.send:hover { 
+    /* farben werden invertiert */
+    background: #dfdfdf;
+    color: #101010;
+}
+
+@media(max-width: 768px) {
+  #contact-form {
+      width: 85%;
+  }
+  #contact-heading, #contact-text {
+      padding: 0 40px;
+  }
+}
