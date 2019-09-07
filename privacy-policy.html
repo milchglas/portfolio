@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="css/animate.css">
     <script src="js/wow.min.js"></script>
 
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 </head>
 
 <body>
@@ -213,6 +214,25 @@
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <!-- JAVASCRIPT -->
     <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000"
+    },
+    "button": {
+      "background": "transparent",
+      "text": "#f1d600",
+      "border": "#f1d600"
+    }
+  },
+  "position": "bottom-right",
+  "content": {
+    "href": "www.artofbokeh.com/privacy-policy"
+  }
+});
+</script>
 </body>
 
 </html>

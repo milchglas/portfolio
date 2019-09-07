@@ -26,6 +26,8 @@
       <!-- WOW ANIMATION -->
       <link rel="stylesheet" href="css/animate.css">
       <script src="js/wow.min.js"></script>
+
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 </head>
 
 <body>
@@ -42,9 +44,9 @@
           <ul id="menu">
               <!-- Navigationsmenü Dektop View -->
               <li><a href="index.html">home<span>.</span></a></li>
-              <li><a href="work.html">work<span>.</span></a></li>
-              <li><a href="about.html">about me<span>.</span></a></li>
-              <li><a href="contact.html">contact<span>.</span></a></li>
+              <li><a href="php/work.php">work<span>.</span></a></li>
+              <li><a href="php/about.php">about me<span>.</span></a></li>
+              <li><a href="contact.php">contact<span>.</span></a></li>
           </ul>
 
           <div id="toggle">
@@ -59,16 +61,16 @@
           <ul id="menu">
               <!-- Navigationsmenü im Mobile View -->
               <li><a href="index.html">home<span>.</span></a></li>
-              <li><a href="work.html">work<span>.</span></a></li>
-              <li><a href="about.html">about me<span>.</span></a></li>
-              <li><a href="contact.html">contact<span>.</span></a></li>
+              <li><a href="php/work.php">work<span>.</span></a></li>
+              <li><a href="php/about.php">about me<span>.</span></a></li>
+              <li><a href="contact.php">contact<span>.</span></a></li>
           </ul>
           <ul id="menu-work-mobile">
               <!-- Navigationsmenü zur Workpage im Mobile View -->
-              <li><a href="weddings.html">WEDDINGS</a></li>
-              <li><a href="portraits.html">PORTRAITS</a></li>
-              <li><a href="creative.html">CREATIVE</a></li>
-              <li><a href="architecture.html">ARCHITECTURE</a></li>
+              <li><a href="php/weddings.php">WEDDINGS</a></li>
+              <li><a href="php/portraits.php">PORTRAITS</a></li>
+              <li><a href="php/creative.php">CREATIVE</a></li>
+              <li><a href="php/architecture.php">ARCHITECTURE</a></li>
           </ul>
       </div>
     </header>
@@ -159,7 +161,7 @@
                           <div class="filler4"></div>
                       </div>
                       <div class="col-lg-4" id="email">
-                          <a href="contact.html">
+                          <a href="contact.php">
                               <p class="wow fadeInUp" data-wow-delay="0s">contact me</p>
                               <h4 class="wow fadeInUp" data-wow-delay="0.2s">niclas_schmidt@gmx.net</h4>
                           </a>
@@ -169,12 +171,12 @@
                   </div>
                   <div class="row">
                       <div class="col-lg-6" id="imprint">
-                          <a href="imprint.html">
+                          <a href="php/imprint.php">
                               <p class="wow fadeInUp" data-wow-delay="0.2s">- imprint -</p>
                           </a>
                       </div>
                       <div class="col-lg-6" id="privacy-policy">
-                          <a href="privacy-policy.html">
+                          <a href="php/privacy-policy.php">
                               <p class="wow fadeInUp" data-wow-delay="0.2s">- privacy policy -</p>
                           </a>
                           <div class="filler4"></div>
@@ -194,7 +196,25 @@
 
     <!-- JAVASCRIPT -->
     <script src="js/main.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000"
+    },
+    "button": {
+      "background": "transparent",
+      "text": "#f1d600",
+      "border": "#f1d600"
+    }
+  },
+  "position": "bottom-right",
+  "content": {
+    "href": "www.artofbokeh.com/privacy-policy"
+  }
+});
+</script>
 </body>
 
 </html>
