@@ -678,6 +678,7 @@ nav #menu li a:hover {
 
 form p {
   color: grey;
+  font-size: 2vh;
 }
 
 #contact-form input,  
