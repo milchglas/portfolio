@@ -410,6 +410,7 @@ nav #menu li a:hover {
     font-size: 3vh;
     font-weight: 200;
     position: absolute;
+    top: 50vh;
     border-right: 2px solid rgba(255, 255, 255, 0.75);
     /* Cursor */
     white-space: nowrap;
@@ -460,7 +461,7 @@ nav #menu li a:hover {
 
 .scroll-down {
     position: absolute;
-    bottom: 10vh;
+    top: 90vh;
     left: calc(50% - 7px);
     /*(Mitte des Bildes - Hälfte des Icons)*/
     text-align: center;
