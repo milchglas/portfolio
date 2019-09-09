@@ -29,19 +29,19 @@
 }
 
 .img1-work-wedding {
-    background: url(img/wedding/work-wedding1.jpg) no-repeat 50% 50%;
+    background: url(../img/wedding/work-wedding1.jpg) no-repeat 50% 50%;
     /* 50% 50% heißt in der mitte plaziert */
     background-size: cover;
     /* überdeckt die größe des div elementes */
 }
 
 .img2-work-wedding {
-    background: url(img/wedding/work-wedding2.jpg) no-repeat 50% 50%;
+    background: url(../img/wedding/work-wedding2.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
 .img3-work-wedding {
-    background: url(img/wedding/work-wedding3.jpg) no-repeat 50% 50%;
+    background: url(../img/wedding/work-wedding3.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -81,17 +81,17 @@
 }
 
 .img1-work-portrait {
-    background: url(img/portrait/work-portrait2.jpg) no-repeat 50% 50%;
+    background: url(../img/portrait/work-portrait2.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
 .img2-work-portrait {
-    background: url(img/portrait/work-portrait1.jpg) no-repeat 50% 50%;
+    background: url(../img/portrait/work-portrait1.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
 .img3-work-portrait {
-    background: url(img/portrait/work-portrait3.jpg) no-repeat 50% 50%;
+    background: url(../img/portrait/work-portrait3.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -132,17 +132,17 @@
 }
 
 .img1-work-creative {
-    background: url(img/creative/work-creative2.jpg) no-repeat 50% 50%;
+    background: url(../img/creative/work-creative2.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
 .img2-work-creative {
-    background: url(img/creative/work-creative1.jpg) no-repeat 50% 50%;
+    background: url(../img/creative/work-creative1.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
 .img3-work-creative {
-    background: url(img/creative/work-creative3.jpg) no-repeat 50% 50%;
+    background: url(../img/creative/work-creative3.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -179,17 +179,17 @@
 }
 
 .img1-work-architecture {
-    background: url(img/architecture/work-architecture1.jpg) no-repeat 50% 50%;
+    background: url(../img/architecture/work-architecture1.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
 .img2-work-architecture {
-    background: url(img/architecture/work-architecture2.jpg) no-repeat 50% 50%;
+    background: url(../img/architecture/work-architecture2.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
 .img3-work-architecture {
-    background: url(img/architecture/work-architecture3.jpg) no-repeat 50% 50%;
+    background: url(../img/architecture/work-architecture3.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
