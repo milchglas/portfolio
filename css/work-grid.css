@@ -55,10 +55,6 @@
 }
 
 @media(max-width: 768px) {
-    .img1-work-wedding,
-    .img3-work-wedding {
-        display: none;
-    }
     .container-work-wedding {
         height: 75vh;
     }
@@ -103,10 +99,6 @@
 }
 
 @media(max-width: 768px) {
-    .img1-work-portrait,
-    .img3-work-portrait {
-        display: none;
-    }
     .container-work-portrait2 {
         height: 75vh;
     }
@@ -164,8 +156,6 @@
 }
 
 @media(max-width: 768px) {
-    .img1-work-creative,
-    .img3-work-creative,
     #text-work-creative {
         display: none;
     }
@@ -207,10 +197,6 @@
 }
 
 @media(max-width: 768px) {
-    .img1-work-architecture,
-    .img3-work-architecture {
-        display: none;
-    }
     .container-work-architecture {
         height: 75vh;
     }
