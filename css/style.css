@@ -74,8 +74,6 @@ body {
     }
 }
 
-
-
 /* NAVIGATION */
 
 nav {
@@ -329,7 +327,6 @@ nav #menu li a:hover {
 }
 
 
-
 /* FOOTER */
 
 .horizontal-line {
@@ -441,7 +438,7 @@ nav #menu li a:hover {
     }
     to {
         /* Endzustand vom Text */
-        width: 11em;
+        width: 11.5em;
     }
 }
 
@@ -456,6 +453,24 @@ nav #menu li a:hover {
     }
 }
 
+/* de */
+.anim-typewriterde {
+    animation: typewriterde 3s 1 both steps(40), /*    animation: Element, Animationsdauert, wiederhohlungsanzahl, animation-fill-mode, animation aufgeteilt in 40 Schritte */
+    blinkTextCursor 500ms infinite;
+    /* Element, Animationsdauer, Wiederhohlungsanzahl */
+    animation-delay: 1s;
+}
+
+@keyframes typewriterde {
+    from {
+        /* Anfangszustand vom Text */
+        width: 0;
+    }
+    to {
+        /* Endzustand vom Text */
+        width: 13.3em;
+    }
+}
 
 /* SCROLL ICON */
 
@@ -583,6 +598,83 @@ nav #menu li a:hover {
     bottom: 0;
 }
 
+/* de */
+
+.selected1de {
+    background: url(../img/selected1.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.selected1de::after {
+    content: "rosen."; 
+    /* text zum Bild */
+    font-family: "Roboto Mono";
+    font-size: 36px;
+    /* Positionierung des Textes zum Bild */
+    position: relative;  
+    color: #fff;
+    display: block;
+    top: 8%; 
+    left: -10%;  
+    right: 0;
+    bottom: 0;
+}
+
+.selected2de {
+    background: url(../img/selected2.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    /* überdeckt den ganzen container */
+}
+
+.selected2de::after {
+    content: "sonnenstrahlen.";
+    font-family: "Roboto Mono";
+    font-size: 36px;
+    position: relative;
+    color: #fff;
+    display: block;
+    top: 80%;
+    left: 83%;
+    right: 0;
+    bottom: 0;
+}
+
+.selected3de {
+    background: url(../img/selected3.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.selected3de::after {
+    content: "blumen.";
+    font-family: "Roboto Mono";
+    font-size: 36px;
+    position: relative;
+    color: #fff;
+    display: block;
+    top: 80%;
+    left: -10%;
+    right: 0;
+    bottom: 0;
+}
+
+.selected4de {
+    background: url(../img/selected4.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.selected4de::after {
+    content: "farben.";
+    font-family: "Roboto Mono";
+    font-size: 36px;
+    position: relative;
+    color: #fff;
+    display: block;
+    top: 10%;
+    left: 95%;
+    right: 0;
+    bottom: 0;
+}
+
 @media(max-width: 768px) {
     .selectedsize {
         /* Größe der Bilder im Mobile View */
@@ -592,7 +684,11 @@ nav #menu li a:hover {
     .selected1::after,
     .selected2::after,
     .selected3::after,
-    .selected4::after {
+    .selected4::after,
+    .selected1de::after,
+    .selected2de::after,
+    .selected3de::after,
+    .selected4de::after {
         display: none; /* texte werden ausgeblendet */
     }
 }

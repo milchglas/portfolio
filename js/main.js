@@ -59,6 +59,14 @@ TweenMax.staggerFrom("#menu li a", 1, {
 }, 0.1);
 //TweenMax.staggerFrom( targets:Array, duration:Number, vars:Object, stagger:Number -> Zeit zwischen den Elementen )
 
+TweenMax.from("#menu li p", 1, {
+      delay: 1.0, //1 Sekunde nach Initialisierung des html-Elements
+      opacity: 0, //Deckkraft auf 0
+      //Geschwindigkeitskurve der Animation
+      ease: Expo.easeInOut
+}, 0.1);
+//TweenMax.staggerFrom( targets:Array, duration:Number, vars:Object, stagger:Number -> Zeit zwischen den Elementen )
+
 
 TweenMax.from(".appear", 1, {
       delay: 0.7, //0,7 Sekunden nach Initialisierung des html-Elements
