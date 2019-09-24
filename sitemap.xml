@@ -1,33 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-        <loc>https://artofbokeh.com/</loc>
-    </url>
-    <url>
-        <loc>https://artofbokeh.com/about</loc>
-    </url>
-    <url>
-        <loc>https://artofbokeh.com/architecture</loc>
-    </url>
-    <url>
-        <loc>https://artofbokeh.com/contact</loc>
-    </url>
-    <url>
-        <loc>https://artofbokeh.com/creative</loc>
-    </url>
-    <url>
-        <loc>https://artofbokeh.com/imprint</loc>
-    </url>
-    <url>
-        <loc>https://artofbokeh.com/portraits</loc>
-    </url>
-    <url>
-        <loc>https://artofbokeh.com/privacy-policy</loc>
-    </url>
-    <url>
-        <loc>https://artofbokeh.com/weddings</loc>
-    </url>
-    <url>
-        <loc>https://artofbokeh.com/work</loc>
-    </url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://artofbokeh.com/</loc>
+  <lastmod>2019-09-24T09:45:37+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://artofbokeh.com/work</loc>
+  <lastmod>2019-09-24T09:45:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://artofbokeh.com/about</loc>
+  <lastmod>2019-09-24T09:45:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://artofbokeh.com/contact</loc>
+  <lastmod>2019-09-24T09:45:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://artofbokeh.com/de/</loc>
+  <lastmod>2019-09-24T09:45:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://artofbokeh.com/weddings</loc>
+  <lastmod>2019-09-24T09:45:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://artofbokeh.com/portraits</loc>
+  <lastmod>2019-09-24T09:45:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://artofbokeh.com/creative</loc>
+  <lastmod>2019-09-24T09:45:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://artofbokeh.com/architecture</loc>
+  <lastmod>2019-09-24T09:45:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://artofbokeh.com/imprint</loc>
+  <lastmod>2019-09-24T09:45:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://artofbokeh.com/privacy-policy</loc>
+  <lastmod>2019-09-24T09:45:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://artofbokeh.com/de/arbeit</loc>
+  <lastmod>2019-09-24T09:45:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://artofbokeh.com/de/ueber-mich</loc>
+  <lastmod>2019-09-24T09:45:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://artofbokeh.com/de/kontakt</loc>
+  <lastmod>2019-09-24T09:45:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://artofbokeh.com/de/hochzeiten</loc>
+  <lastmod>2019-09-24T09:45:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://artofbokeh.com/de/portraits</loc>
+  <lastmod>2019-09-24T09:45:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://artofbokeh.com/de/kreatives</loc>
+  <lastmod>2019-09-24T09:45:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://artofbokeh.com/de/architektur</loc>
+  <lastmod>2019-09-24T09:45:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://artofbokeh.com/de/impressum</loc>
+  <lastmod>2019-09-24T09:45:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://artofbokeh.com/de/datenschutzerklaerung</loc>
+  <lastmod>2019-09-24T09:45:37+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
 </urlset>
