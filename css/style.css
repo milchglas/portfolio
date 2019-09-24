@@ -397,7 +397,7 @@ nav #menu li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(../img/selected6.jpg) no-repeat 50% 50%;
+    background: url(../img/selected6.webp) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -524,7 +524,7 @@ nav #menu li a:hover {
 }
 
 .selected1 {
-    background: url(../img/selected1.jpg) no-repeat 50% 50%;
+    background: url(../img/selected1.webp) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -544,7 +544,7 @@ nav #menu li a:hover {
 }
 
 .selected2 {
-    background: url(../img/selected2.jpg) no-repeat 50% 50%;
+    background: url(../img/selected2.webp) no-repeat 50% 50%;
     background-size: cover;
     /* überdeckt den ganzen container */
 }
@@ -563,7 +563,7 @@ nav #menu li a:hover {
 }
 
 .selected3 {
-    background: url(../img/selected3.jpg) no-repeat 50% 50%;
+    background: url(../img/selected3.webp) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -581,7 +581,7 @@ nav #menu li a:hover {
 }
 
 .selected4 {
-    background: url(../img/selected4.jpg) no-repeat 50% 50%;
+    background: url(../img/selected4.webp) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -601,7 +601,7 @@ nav #menu li a:hover {
 /* de */
 
 .selected1de {
-    background: url(../img/selected1.jpg) no-repeat 50% 50%;
+    background: url(../img/selected1.webp) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -621,7 +621,7 @@ nav #menu li a:hover {
 }
 
 .selected2de {
-    background: url(../img/selected2.jpg) no-repeat 50% 50%;
+    background: url(../img/selected2.webp) no-repeat 50% 50%;
     background-size: cover;
     /* überdeckt den ganzen container */
 }
@@ -640,7 +640,7 @@ nav #menu li a:hover {
 }
 
 .selected3de {
-    background: url(../img/selected3.jpg) no-repeat 50% 50%;
+    background: url(../img/selected3.webp) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -658,7 +658,7 @@ nav #menu li a:hover {
 }
 
 .selected4de {
-    background: url(../img/selected4.jpg) no-repeat 50% 50%;
+    background: url(../img/selected4.webp) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -715,7 +715,7 @@ nav #menu li a:hover {
 
 /* selbserklärend, nichts neues */
 #about-image {
-    background: url(../img/creative/work-creative3.jpg) no-repeat 50% 50%;
+    background: url(../img/creative/work-creative3.img) no-repeat 50% 50%;
     background-size: cover;
     height: 80vh;
     margin-top: 15vh;
