@@ -28,22 +28,12 @@
     height: 350px;
 }
 
-.img1-work-wedding {
-    background: url(../img/wedding/work-wedding1.webp) no-repeat 50% 50%;
-    /* 50% 50% heißt in der mitte plaziert */
-    background-size: cover;
-    /* überdeckt die größe des div elementes */
-}
 
 .img2-work-wedding {
     background: url(../img/wedding/work-wedding2.webp) no-repeat 50% 50%;
     background-size: cover;
 }
 
-.img3-work-wedding {
-    background: url(../img/wedding/work-wedding3.webp) no-repeat 50% 50%;
-    background-size: cover;
-}
 
 @media(min-width: 768px) {
     .filler7 {
@@ -80,18 +70,9 @@
     height: 400px;
 }
 
-.img1-work-portrait {
-    background: url(../img/portrait/work-portrait2.webp) no-repeat 50% 50%;
-    background-size: cover;
-}
 
 .img2-work-portrait {
     background: url(../img/portrait/work-portrait1.webp) no-repeat 50% 50%;
-    background-size: cover;
-}
-
-.img3-work-portrait {
-    background: url(../img/portrait/work-portrait3.webp) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -131,20 +112,11 @@
     height: 400px;
 }
 
-.img1-work-creative {
-    background: url(../img/creative/work-creative2.webp) no-repeat 50% 50%;
-    background-size: cover;
-}
-
 .img2-work-creative {
     background: url(../img/creative/work-creative1.webp) no-repeat 50% 50%;
     background-size: cover;
 }
 
-.img3-work-creative {
-    background: url(../img/creative/work-creative3.webp) no-repeat 50% 50%;
-    background-size: cover;
-}
 
 @media(max-width: 768px) {
     #text-work-creative2 {

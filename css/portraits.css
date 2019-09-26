@@ -8,20 +8,20 @@
     height: 40vh;
 }
 
-.webp-grid-heading {
+.img-grid-heading {
     text-align: center;
     height: 8vh;
 }
 
-.webp-grid-heading h2 {
+.img-grid-heading h2 {
     font-size: 40px;
 }
 
 @media(max-width: 768px) {
-    .webp-grid-heading h2 {
+    .img-grid-heading h2 {
         font-size: 20px;
     }
-    .webp-grid-heading {
+    .img-grid-heading {
         height: 5vh;
     }
     .filler5 {
