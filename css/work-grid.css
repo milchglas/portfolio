@@ -28,19 +28,19 @@
     height: 350px;
 }
 
-.img1-work-wedding {
+.webp1-work-wedding {
     background: url(../img/wedding/work-wedding1.jpg) no-repeat 50% 50%;
     /* 50% 50% heißt in der mitte plaziert */
     background-size: cover;
     /* überdeckt die größe des div elementes */
 }
 
-.img2-work-wedding {
+.webp2-work-wedding {
     background: url(../img/wedding/work-wedding2.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
-.img3-work-wedding {
+.webp3-work-wedding {
     background: url(../img/wedding/work-wedding3.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
@@ -80,17 +80,17 @@
     height: 400px;
 }
 
-.img1-work-portrait {
+.webp1-work-portrait {
     background: url(../img/portrait/work-portrait2.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
-.img2-work-portrait {
+.webp2-work-portrait {
     background: url(../img/portrait/work-portrait1.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
-.img3-work-portrait {
+.webp3-work-portrait {
     background: url(../img/portrait/work-portrait3.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
@@ -131,17 +131,17 @@
     height: 400px;
 }
 
-.img1-work-creative {
+.webp1-work-creative {
     background: url(../img/creative/work-creative2.webp) no-repeat 50% 50%;
     background-size: cover;
 }
 
-.img2-work-creative {
+.webp2-work-creative {
     background: url(../img/creative/work-creative1.webp) no-repeat 50% 50%;
     background-size: cover;
 }
 
-.img3-work-creative {
+.webp3-work-creative {
     background: url(../img/creative/work-creative3.webp) no-repeat 50% 50%;
     background-size: cover;
 }
@@ -178,17 +178,17 @@
     height: 550px;
 }
 
-.img1-work-architecture {
+.webp1-work-architecture {
     background: url(../img/architecture/work-architecture1.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
-.img2-work-architecture {
+.webp2-work-architecture {
     background: url(../img/architecture/work-architecture2.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
-.img3-work-architecture {
+.webp3-work-architecture {
     background: url(../img/architecture/work-architecture3.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
