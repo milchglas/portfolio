@@ -401,6 +401,15 @@ nav #menu li a:hover {
     background-size: cover;
 }
 
+.hero2 {
+    /* Main Content auf der Startseite */
+    height: 100vh;
+    /* viewport height ist 100 damit immer genau das Bild / die Hero Section den ganzen Bildschirm einnimmt. */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* SCROLL ICON */
 
 .scroll-down {
