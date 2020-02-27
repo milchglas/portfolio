@@ -85,3 +85,17 @@ TweenMax.from(".appear", 1, {
 new WOW().init(); //WOW Objekt wird erzeugt -> Animationen können abgespielt werden.
 
 //WOW ANIMATION END
+
+// Scroll Funktion für Navigation Bar und Back-To-Top Button
+$(document).ready(function() { // JQuery wird benutzt
+      $('.scroll-ani').click(function(e) { // Wenn Element der Klasse scroll-ani geklickt wird, dann passiert folgendes:
+    
+            var targetHref = $(this).attr('href'); // Auf der Variable wird das href Attribut des geklickten Elements gespeichert
+    
+          $('html, body').animate({ // Animate = Befehl von Jquery
+                scrollTop: $(targetHref).offset().top // Eigentliche Animation des scrollens
+          }, 1000); // Gewschwindigkeit des scrollens
+    
+        e.preventDefault(); // Die normale Aktion die beim klicken des Links ausgeführt wird, wird blockiert damit man es animieren kann
+      });
+});
