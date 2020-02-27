@@ -402,8 +402,25 @@ nav #menu li a:hover {
 }
 
 .hero2 {
+    /* Main Content auf der Startseite */
     height: 100vh;
+    /* viewport height ist 100 damit immer genau das Bild / die Hero Section den ganzen Bildschirm einnimmt. */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/hochzeit.jpg) no-repeat 50% 50%;
+    background-size: cover;
 }
+
+.hero2 h2 {
+    position: absolute;
+}
+
+.hero2 h1 {
+    position: absolute;
+    margin-top: 50px;
+}
+
 /* SCROLL ICON */
 
 .scroll-down {
