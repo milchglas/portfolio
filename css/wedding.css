@@ -1,0 +1,83 @@
+header,
+footer {
+    font-family: "Roboto Mono" !important;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "Cormorant Garamond" !important;
+    background: #0f0f0f !important;
+    color: #fff !important;
+}
+
+.hero2 {
+    /* Main Content auf der Startseite */
+    height: 100vh;
+    /* viewport height ist 100 damit immer genau das Bild / die Hero Section den ganzen Bildschirm einnimmt. */
+    display: flex;
+    align-items: center;
+    background: url(../img/hochzeit.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    font-family: "Cormorant Garamond";
+    font-weight: 700;
+    justify-content: center;
+}
+
+.hero2 h2 {
+    position: absolute;
+    font-size: 40px;
+}
+
+.hero2 h1 {
+    position: absolute;
+    margin-top: 70px;
+    font-size: 60px;
+    font-family: "poppins";
+}
+
+.hero2 h3 {
+    position: absolute;
+    margin-top: 160px;
+    font-size: 20px;
+    text-align: center;
+}
+.hero2 a{
+    margin-top: 500px;
+}
+
+.hero2 button {
+    
+    padding: 10px 30px;
+    background: transparent;
+    color: #dfdfdf;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.hero2 button:hover { 
+    /* farben werden invertiert */
+    background: #dfdfdf;
+    color: #101010;
+}
+
+.introduction {
+    /* Main Content auf der Startseite */
+    height: 100vh;
+    /* viewport height ist 100 damit immer genau das Bild / die Hero Section den ganzen Bildschirm einnimmt. */
+    display: flex;
+    font-family: "Cormorant Garamond";
+    font-weight: 700;
+    justify-content: center;
+}
+
+h1{
+    position: absolute;
+}
+
+.introduction p{
+    margin-top: 500px;
+    position: absolute;
+}
