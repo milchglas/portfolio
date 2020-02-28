@@ -331,6 +331,7 @@ nav #menu li a:hover {
 .horizontal-line {
     background: rgba(255, 255, 255, 0.2);
     height: 2px;
+    
 }
 
 .info h4 {
@@ -460,7 +461,7 @@ nav #menu li a:hover {
 .selected1::after {
     content: "roses."; 
     /* text zum Bild */
-    font-family: "Roboto Mono";
+    
     font-size: 36px;
     /* Positionierung des Textes zum Bild */
     position: relative;  
@@ -480,7 +481,6 @@ nav #menu li a:hover {
 
 .selected2::after {
     content: "sunshine.";
-    font-family: "Roboto Mono";
     font-size: 36px;
     position: relative;
     color: #fff;
@@ -498,7 +498,6 @@ nav #menu li a:hover {
 
 .selected3::after {
     content: "flower.";
-    font-family: "Roboto Mono";
     font-size: 36px;
     position: relative;
     color: #fff;
@@ -516,7 +515,6 @@ nav #menu li a:hover {
 
 .selected4::after {
     content: "color.";
-    font-family: "Roboto Mono";
     font-size: 36px;
     position: relative;
     color: #fff;
@@ -537,7 +535,6 @@ nav #menu li a:hover {
 .selected1de::after {
     content: "rosen."; 
     /* text zum Bild */
-    font-family: "Roboto Mono";
     font-size: 36px;
     /* Positionierung des Textes zum Bild */
     position: relative;  
@@ -557,7 +554,6 @@ nav #menu li a:hover {
 
 .selected2de::after {
     content: "sonnenstrahlen.";
-    font-family: "Roboto Mono";
     font-size: 36px;
     position: relative;
     color: #fff;
@@ -575,7 +571,6 @@ nav #menu li a:hover {
 
 .selected3de::after {
     content: "blumen.";
-    font-family: "Roboto Mono";
     font-size: 36px;
     position: relative;
     color: #fff;
@@ -593,7 +588,6 @@ nav #menu li a:hover {
 
 .selected4de::after {
     content: "farben.";
-    font-family: "Roboto Mono";
     font-size: 36px;
     position: relative;
     color: #fff;
