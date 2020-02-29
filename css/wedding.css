@@ -114,7 +114,7 @@ body {
     height: 100vh;
 }
 
-.wedding-part1 button {
+.content1 button {
     margin-top: 3vh;
     padding: 18px 35px;
     background: transparent;
@@ -124,7 +124,7 @@ body {
     letter-spacing: 2px;
 }
 
-.wedding-part1 button:hover { 
+.content1 button:hover { 
     /* farben werden invertiert */
     background:  #fafaf8;
     color: #101010;
@@ -324,7 +324,7 @@ body {
     border-radius: 20px;
 }
 
-.wedding-part2 button {
+.content2 button {
     margin-top: 3vh;
     padding: 18px 35px;
     background: transparent;
@@ -334,7 +334,7 @@ body {
     letter-spacing: 2px;
 }
 
-.wedding-part2 button:hover { 
+.content2 button:hover { 
     /* farben werden invertiert */
     background:  #ffffff;
     color: #101010;
@@ -414,7 +414,7 @@ body {
     height: 100vh;
 }
 
-.wedding-part3 button {
+.content3 button {
     margin-top: 3vh;
     padding: 18px 35px;
     background: transparent;
@@ -424,7 +424,7 @@ body {
     letter-spacing: 2px;
 }
 
-.wedding-part3 button:hover { 
+.content3 button:hover { 
     /* farben werden invertiert */
     background: #fff;
     color: #101010;
@@ -508,4 +508,41 @@ body {
     .wedding-part3 .img1 {
         display: none;
     }
+}
+
+.pn-btn {
+    right: 40px;
+    bottom: 80px;
+    position: absolute;
+    padding: 5px 10px;
+    background: transparent;
+    color: #fafaf8;
+    background: #101010;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.pn-btn2 {
+    right: 40px;
+    bottom: 40px;
+    position: absolute;
+    padding: 5px 10px;
+    background: transparent;
+    color: #fafaf8;
+    background: #101010;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.grau {
+    background: #AAAAAA;
+    cursor: default;
+}
+
+.prev:after {
+    content: "↑"
+}
+
+.next:after {
+    content: "↓"
 }
