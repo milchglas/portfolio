@@ -1,5 +1,9 @@
 /* IMG GRID WEDDINGS */
 
+body {
+    background: #fafaf8 !important;
+}
+
 .container-wedding {
     height: 80vh;
 }
@@ -7,6 +11,16 @@
 .img-grid-heading {
     text-align: center;
     height: 8vh;
+    font-family: "Martel";
+    color: #101010;
+}
+
+.img-grid-heading p {
+    margin: 2vh 40vh;
+    font-family: "Martel";
+    font-size: 19px;
+    line-height: 40px;
+    color: #464646;
 }
 
 .img-grid-heading h2 {
@@ -14,6 +28,12 @@
 }
 
 @media(max-width: 768px) {
+    .img-grid-heading p {
+        display: none;
+    }
+    #hide{
+        display: none;
+    }
     .img-grid-heading h2 {
         font-size: 20px;
     }
