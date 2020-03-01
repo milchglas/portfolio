@@ -14,10 +14,6 @@ nav #menu {
     right: 8%;
 }
 
-#resize {
-    position: static;
-}
-
 #navwork {
     position: static;
 }
@@ -230,6 +226,9 @@ nav #menu {
     .content2 {
         margin-top: 10vh;
     }
+    .content3 {
+        margin-top: 5vh;
+    }
     .h1desktop{
         display: none;
     }
@@ -365,6 +364,7 @@ nav #menu {
         margin: 14px auto;
     }
     .content1 {
+        margin-left: 7%;
         margin-top: 10vh;
     }
     .content2 {
@@ -499,9 +499,6 @@ nav #menu {
 
 
 @media(max-width: 768px) {
-    .content1 {
-        margin-left: 7%;
-    }
     .wedding-part1{
         text-align: center;
     }
@@ -529,6 +526,7 @@ nav #menu {
     .content3 {
         margin-left: 15%;
         margin-right: 15%;
+        margin-top: 0vh;
     }
 }
 
