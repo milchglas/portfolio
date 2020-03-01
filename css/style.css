@@ -666,6 +666,46 @@ nav #menu li a:hover {
     }
 }
 
+h3 {
+  height: 3vh;
+  margin-top: 15vh;
+  color: #fff;
+}
+
+.formular-text {
+  font-size: 2vh;
+  font-weight: 300;
+  color: grey;
+}
+
+@media (max-width: 768px) {
+  .formular-text {
+    /* Media Queries können genestet werden */
+    font-size: 16px;
+    padding: 40px;
+  }
+}
+
+.formular-text a {
+  /*mit nesting greife ich auf die a children von .formular-text zu */
+  font-size: 2vh;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .formular-text a {
+    /* Media Queries können genestet werden */
+    font-size: 16px;
+  }
+}
+
+.formular-text a:hover {
+  /* mit dem & greife ich auf das parent zu und sage dann was beim hovern passiert */
+  text-decoration: none;
+  color: #fff;
+}
+/*# sourceMappingURL=formular.css.map */
+
 
 /* CONTACT */
 
