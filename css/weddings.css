@@ -1,8 +1,15 @@
 /* IMG GRID WEDDINGS */
-
+html,
 body {
     background: #fafaf8 !important;
 }
+
+footer{
+    background: #0f0f0f !important;
+}
+
+nav {
+    background: rgba(0, 0, 0, 0.95);}
 
 .container-wedding {
     height: 80vh;
@@ -29,13 +36,9 @@ body {
 
 @media(max-width: 768px) {
     .img-grid-heading p {
-        display: none;
-    }
-    #hide{
-        display: none;
-    }
-    .img-grid-heading h2 {
-        font-size: 20px;
+        margin: 0 30px;
+        font-size: 14px;
+        line-height: 35px;
     }
     .img-grid-heading {
         height: 5vh;
