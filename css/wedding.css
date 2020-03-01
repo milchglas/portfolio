@@ -566,3 +566,67 @@ nav #menu {
 .next:after {
     content: "↓"
 }
+
+/* CONTACT */
+
+.contact-wedding {
+    text-align: center;
+    background-color: white;
+    height: 100vh;
+}
+.form-wedding {
+    width: 100%;
+}
+#contact-form ul {
+    list-style: none; 
+    /* keine Bulletpoints */
+}
+
+#contact-form label {
+    margin-top: 4vh;
+    font-family: "Martel";
+    color: #464646;
+    font-size: 19px;
+}
+
+form p {
+    color: #767676;
+    font-size: 13px;
+}
+
+#contact-form input,  
+/* Eingabefeld Name, Email */
+#contact-form textarea 
+/* Eingabefeld Message */{
+    width: 100%;  
+    padding: 10px 30px; 
+    /* Eingaben ein wenig eingeschoben */
+    border: 0.75px solid #fff;
+    background:#FBF5F1;
+    color: #767676;;
+    resize: vertical; 
+    /* Fenster kann vertikal erweiter werden */
+}
+#contact-form textarea {
+    padding: 20px 30px; 
+}
+
+input:focus,
+textarea:focus {
+    outline: none; 
+    /* Ansonsten würde dort immer ein komisches Feld drum sein */
+}
+
+.send {
+    padding: 18px 35px;
+    background: transparent;
+    color: #FBF5F1;
+    background: #101010;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.send:hover { 
+    background: #FBF5F1;
+    color: #101010;
+}

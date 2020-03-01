@@ -704,7 +704,6 @@ h3 {
   text-decoration: none;
   color: #fff;
 }
-/*# sourceMappingURL=formular.css.map */
 
 
 /* CONTACT */
@@ -763,7 +762,7 @@ textarea:focus {
 }
 
 .send {
-    margin-left: 50px;
+    
     padding: 20px 30px;
     background: transparent;
     color: #dfdfdf;
