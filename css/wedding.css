@@ -72,7 +72,9 @@ nav #menu {
 }
 
 /* TEIL 1*/
-
+.text {
+    font-size: 19px;
+}
 .content1 {
     margin-top: auto;
     margin-bottom: auto;
@@ -128,7 +130,6 @@ nav #menu {
     margin-top: 4vh;
     font-family: "Martel";
     color: #767676;
-    font-size: 19px;
     line-height: 40px;
 }
 
@@ -249,7 +250,6 @@ nav #menu {
     margin-top: 4vh;
     font-family: "Martel";
     color: #767676;
-    font-size: 19px;
     line-height: 40px;
 }
 
@@ -406,7 +406,6 @@ nav #menu {
     margin-top: 4vh;
     font-family: "Martel";
     color: #767676;
-    font-size: 19px;
     line-height: 40px;
 }
 
@@ -686,7 +685,6 @@ textarea:focus {
     .wedding-part3 .text {
         margin-top: 0vh;
     }
-
     .text {
         font-size: 15px;
     }
