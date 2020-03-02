@@ -359,7 +359,6 @@ nav #menu {
 .content3 {
     margin-top: auto;
     margin-bottom: auto;
-    width: 100%;
     margin-left: 15%;
     margin-right: 40vh;
 }
@@ -655,7 +654,6 @@ textarea:focus {
     .content3 {
         margin-left: 5%;
         margin-right: 5%;
-        margin-top: 3vh;
     }
 
     .content3 button {
@@ -664,6 +662,18 @@ textarea:focus {
 
     .container-fluid h1 {
         font-size: 40px;
+    }
+
+    .wedding-part1 h1 {
+        margin-top: 0;
+    }
+
+    .wedding-part2 h1 {
+        margin-top: 0;
+    }
+
+    .wedding-part3 h1 {
+        margin-top: 0;
     }
 }
   
