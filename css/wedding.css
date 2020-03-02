@@ -343,6 +343,11 @@ nav #menu {
     background-size: cover;
 }
 
+.wedding-img-4 {
+    background: url(../img/weddings/wedding7.webp) no-repeat 50% 50%;
+    background-size: cover;
+}
+
 .hide {
     display: none;
 }
@@ -498,37 +503,6 @@ nav #menu {
 }
 
 
-@media(max-width: 768px) {
-    .wedding-part1{
-        text-align: center;
-    }
-    .wedding-part1-right{
-        display: none;
-    }
-    .wedding-part1 img{
-        display: none;
-    }
-    .wedding-part3-right{
-        display: none;
-    }
-    .wedding-part3 .img1 {
-        display: none;
-    }
-    .pn-btn{
-        display: none;
-    }
-    .pn-btn2{
-        display: none;
-    }
-    .wedding-part3 {
-        text-align: center;
-    }
-    .content3 {
-        margin-left: 15%;
-        margin-right: 15%;
-        margin-top: 0vh;
-    }
-}
 
 .pn-btn {
     right: 40px;
@@ -572,7 +546,6 @@ nav #menu {
 .contact-wedding {
     background-color: white;
     height: 100vh;
-    width: 100%;
 }
 
 .form-wedding {
@@ -596,7 +569,9 @@ form {
 /* Eingabefeld Name, Email */
 #contact-form-wedding textarea 
 /* Eingabefeld Message */{
-    width: 100%;  
+    width: 70%;  
+    margin-left: 15%;
+    margin-right: 15%;
     padding: 10px 30px; 
     /* Eingaben ein wenig eingeschoben */
     border: 0.75px solid #fff;
@@ -617,10 +592,11 @@ textarea:focus {
 form p {
     color: #767676;
     font-size: 13px;
+    
 }
 
 .send {
-    margin-top: 30px;
+    margin-top: 1vh;
     padding: 18px 4%;
     background: transparent;
     color: #FBF5F1;
@@ -642,6 +618,9 @@ form p {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    width: 70%;  
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
   /* Hide the browser's default checkbox */
@@ -697,3 +676,41 @@ form p {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
   }
+
+
+
+@media(max-width: 768px) {
+    .wedding-part1{
+        text-align: center;
+    }
+    .wedding-part1-right{
+        display: none;
+    }
+    .wedding-part1 img{
+        display: none;
+    }
+    .wedding-part3-right{
+        display: none;
+    }
+    .wedding-part3 .img1 {
+        display: none;
+    }
+    .pn-btn{
+        display: none;
+    }
+    .pn-btn2{
+        display: none;
+    }
+    .wedding-part3 {
+        text-align: center;
+    }
+    .content3 {
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 0vh;
+    }
+    form {
+        margin-top: 3vh;
+    }
+}
+  
