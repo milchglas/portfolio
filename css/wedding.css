@@ -33,7 +33,7 @@ nav #menu {
 
 .hero2-text{
     position: absolute;
-    margin-top: 45vh;
+    bottom: 300px;
 }
 
 .hero2 h1 {
@@ -50,7 +50,7 @@ nav #menu {
 }
 .hero2 a {
     position: absolute;
-    margin-top: 7vh;
+    margin-top: 70px;
     left: 50%;
     margin-left: -100px;
 }
