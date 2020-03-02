@@ -500,14 +500,14 @@ nav #menu {
 
 .contact-wedding {
     background-color: white;
-    height: 100vh;
+    height: auto;
+    padding-bottom: 8vh;
     text-align: center;
     justify-content: center;
 }
 
 .form-wedding { 
     margin-top: 8vh;
-    margin-bottom: auto;
 }
 
 #contact-form-wedding label {
@@ -691,18 +691,10 @@ textarea:focus {
     }
     .form-wedding { 
         margin-top: 3vh;
-        margin-bottom: auto;
     }
     #contact-form-wedding label {
         margin-top: 4vh;
         font-size: 15px;
-    }
-    .contact-wedding {
-        background-color: white;
-        height: auto;
-        padding-bottom: 80px;
-        text-align: center;
-        justify-content: center;
     }
 }
   
