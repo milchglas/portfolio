@@ -31,27 +31,32 @@ nav #menu {
     justify-content: center;
 }
 
-.hero2 h1 {
+.hero2-text{
     position: absolute;
     margin-top: 45vh;
+}
+
+.hero2 h1 {
     font-size: 60px;
     font-family: "Montserrat";
     text-align: center;
 }
 
 .hero2 h3 {
-    position: absolute;
-    margin-top: 53vh;
     font-size: 20px;
     text-align: center;
     font-family: "EB Garamond";
     font-style: italic;
 }
-.hero2 a{
-    margin-top: 65vh;
+.hero2 a {
+    position: absolute;
+    margin-top: 7vh;
+    left: 50%;
+    margin-left: -100px;
 }
 
 .hero2 button {
+    width: 200px;
     padding: 10px 30px;
     background: transparent;
     color: #fafaf8;
@@ -65,19 +70,6 @@ nav #menu {
     background: #fafaf8;
     color: #101010;
 }
-
-@media(max-width: 768px) {
-    .hero2 h1 {
-        margin-top: 50vh;
-    }
-    .hero2 h3 {
-        margin-top: 60vh;
-    }
-    .hero2 a {
-        margin-top: 72vh;
-    }
-}
-
 
 /* TEIL 1*/
 
