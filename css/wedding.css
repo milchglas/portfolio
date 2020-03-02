@@ -648,6 +648,7 @@ form p {
     -ms-user-select: none;
     user-select: none;
 }
+
   /* Hide the browser's default checkbox */
   .container-check input {
     display: none;
