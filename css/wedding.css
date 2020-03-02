@@ -683,6 +683,9 @@ textarea:focus {
     .h1mobile{
         display: inline;
     }
+    .wedding-part3 .text {
+        margin-top: 0vh;
+    }
 
     .text {
         font-size: 15px;
