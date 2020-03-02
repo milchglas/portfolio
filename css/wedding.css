@@ -696,5 +696,10 @@ textarea:focus {
         margin-top: 4vh;
         font-size: 15px;
     }
+
+    #contact-name, #contact-email,
+    #contact-form-wedding textarea {
+    font-size: 12px;
+    }
 }
   
