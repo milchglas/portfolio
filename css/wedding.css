@@ -624,7 +624,9 @@ textarea:focus {
     transform: rotate(45deg);
   }
 
-
+.h1mobile {
+    display: none;
+}
 
 @media(max-width: 768px) {
     .wedding-part1{
@@ -674,6 +676,16 @@ textarea:focus {
 
     .wedding-part3 h1 {
         margin-top: 0;
+    }
+    .h1desktop{
+        display: none;
+    }
+    .h1mobile{
+        display: inline;
+    }
+
+    .text {
+        font-size: 15px;
     }
 }
   
