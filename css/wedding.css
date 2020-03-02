@@ -697,5 +697,12 @@ textarea:focus {
         margin-top: 4vh;
         font-size: 15px;
     }
+    .contact-wedding {
+        background-color: white;
+        height: auto;
+        padding-bottom: 80px;
+        text-align: center;
+        justify-content: center;
+    }
 }
   
