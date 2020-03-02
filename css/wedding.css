@@ -506,7 +506,7 @@ nav #menu {
 }
 
 .form-wedding { 
-    margin-top: 6vh;
+    margin-top: 8vh;
     margin-bottom: auto;
 }
 
@@ -521,7 +521,8 @@ nav #menu {
 /* Eingabefeld Name, Email */
 #contact-form-wedding textarea 
 /* Eingabefeld Message */{
-    width: 70%;  
+    width: 70%;
+    font-size: 15px;
     margin-left: 15%;
     margin-right: 15%;
     padding: 10px 30px; 
@@ -686,6 +687,14 @@ textarea:focus {
         margin-top: 0vh;
     }
     .text {
+        font-size: 15px;
+    }
+    .form-wedding { 
+        margin-top: 3vh;
+        margin-bottom: auto;
+    }
+    #contact-form-wedding label {
+        margin-top: 4vh;
         font-size: 15px;
     }
 }
