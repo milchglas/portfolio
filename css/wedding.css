@@ -211,11 +211,7 @@ nav #menu {
         width: 90% !important;
         margin: 14px auto;
     }
-    .content3 {
-        margin-top: 5vh;
-    }
 }
-
 
 
 
@@ -361,7 +357,8 @@ nav #menu {
 /* TEIL 3 */
 
 .content3 {
-    margin-top: 9vh;
+    margin-top: auto;
+    margin-bottom: auto;
     width: 100%;
     margin-left: 15%;
     margin-right: 40vh;
@@ -658,7 +655,7 @@ textarea:focus {
     .content3 {
         margin-left: 5%;
         margin-right: 5%;
-        margin-top: 0vh;
+        margin-top: 3vh;
     }
 
     .content3 button {
