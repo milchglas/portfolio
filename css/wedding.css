@@ -74,7 +74,8 @@ nav #menu {
 /* TEIL 1*/
 
 .content1 {
-    margin-top: 6vh;
+    margin-top: auto;
+    margin-bottom: auto;
     width: 100%;
     margin-left: 15%;
     margin-right: 7%;
@@ -108,7 +109,7 @@ nav #menu {
 }
 
 .content1 img {
-    height: 220px;
+    height: 20vh;
 }
 
 .wedding-part1 h1{
@@ -196,7 +197,6 @@ nav #menu {
     position: absolute;
     margin-top: 42vh;
     margin-left: 22vh;
-
 }
 
 .wedding-part1-right .img2{
@@ -211,39 +211,19 @@ nav #menu {
         width: 90% !important;
         margin: 14px auto;
     }
-
-    .content1 {
-        margin-top: 10vh;
-    }
-    .content2 {
-        margin-top: 10vh;
-    }
     .content3 {
         margin-top: 5vh;
     }
-    .h1desktop{
-        display: none;
-    }
-    .wedding-part2 h1 {
-        margin-top: 3vh;
-        font-size: 35px;
-    }
-    .wedding-part h1 {
-        margin-top: 3vh;
-        font-size: 35px;
-    }
-    .h1mobile{
-        display: block;
-        
-    }
 }
+
 
 
 
 /* TEIL 2*/
 
 .content2 {
-    margin-top: 14vh;
+    margin-top: auto;
+    margin-bottom: auto;
     width: 80%;
 }
 
@@ -260,10 +240,6 @@ nav #menu {
 .wedding-part2 h1{
     margin-top: 5vh;
     font-size: 50px;
-}
-
-.h1mobile{
-    display: none;
 }
 
 .wedding-part2 .überschrift {
@@ -362,28 +338,18 @@ nav #menu {
     }
     .content1 {
         margin-left: 7%;
-        margin-top: 10vh;
     }
     .content2 {
-        margin-top: 3vh;
-        width: 90%;
+        width: 100%;
     }
-    .h1desktop{
+    .content2 img {
         display: none;
-    }
-    .wedding-part2 h1 {
-        margin-top: 3vh;
-        font-size: 35px;
-    }
-    .wedding-part h1 {
-        margin-top: 3vh;
-        font-size: 35px;
-    }
-    .h1mobile{
-        display: block;
     }
     .content2 button {
         margin-top: 0vh;
+    }
+    .trennlinie2{
+        display: none;
     }
 }
 
@@ -547,7 +513,8 @@ nav #menu {
 }
 
 form {
-    margin-top: 10vh;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #contact-form-wedding label {
@@ -584,7 +551,6 @@ textarea:focus {
 form p {
     color: #767676;
     font-size: 13px;
-    
 }
 
 .send {
@@ -610,9 +576,9 @@ form p {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    width: 70%;  
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 100%;  
+    margin-left: auto;
+    margin-right: auto;
 }
 
   /* Hide the browser's default checkbox */
@@ -697,12 +663,17 @@ form p {
         text-align: center;
     }
     .content3 {
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 6%;
+        margin-right: 6%;
         margin-top: 0vh;
     }
-    form {
-        margin-top: 3vh;
+    
+    .content3 button {
+        margin-top: 0;
+    }
+
+    .container-fluid h1 {
+        font-size: 40px;
     }
 }
   
