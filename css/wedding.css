@@ -25,7 +25,7 @@ nav #menu {
     /* viewport height ist 100 damit immer genau das Bild / die Hero Section den ganzen Bildschirm einnimmt. */
     display: flex;
     /*align-items: center;*/
-    background: url(../img/wedding/wedding-page1-croph.webp) no-repeat 50% 50%;
+    background: url(../img/wedding/wedding-page1-croph.jpg) no-repeat 50% 50%;
     background-size: cover;
     font-family: "Derivia Regular";
     justify-content: center;
@@ -298,17 +298,17 @@ nav #menu {
 }
 
 .wedding-img2 {
-    background: url(../img/wedding/wedding-page2-crop.webp) no-repeat 50% 50%;
+    background: url(../img/wedding/wedding-page2-crop.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
 .wedding-img3 {
-    background: url(../img/weddings/wedding2.webp) no-repeat 50% 50%;
+    background: url(../img/weddings/wedding2.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
 .wedding-img-4 {
-    background: url(../img/weddings/wedding7.webp) no-repeat 50% 50%;
+    background: url(../img/weddings/wedding7.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 

@@ -395,7 +395,7 @@ nav #menu li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(../img/fototgraf-wernigerode-6.webp) no-repeat 50% 50%;
+    background: url(../img/fototgraf-wernigerode-6.jpg) no-repeat 50% 50%;
     background-size: cover;
     
 }
@@ -452,7 +452,7 @@ nav #menu li a:hover {
 }
 
 .selected1 {
-    background: url(../img/fototgraf-wernigerode-1.webp) no-repeat 50% 50%;
+    background: url(../img/fototgraf-wernigerode-1.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -472,7 +472,7 @@ nav #menu li a:hover {
 }
 
 .selected2 {
-    background: url(../img/fototgraf-wernigerode-2.webp) no-repeat 50% 50%;
+    background: url(../img/fototgraf-wernigerode-2.jpg) no-repeat 50% 50%;
     background-size: cover;
     /* überdeckt den ganzen container */
 }
@@ -490,7 +490,7 @@ nav #menu li a:hover {
 }
 
 .selected3 {
-    background: url(../img/fototgraf-wernigerode-3.webp) no-repeat 50% 50%;
+    background: url(../img/fototgraf-wernigerode-3.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -507,7 +507,7 @@ nav #menu li a:hover {
 }
 
 .selected4 {
-    background: url(../img/fototgraf-wernigerode-4.webp) no-repeat 50% 50%;
+    background: url(../img/fototgraf-wernigerode-4.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -526,7 +526,7 @@ nav #menu li a:hover {
 /* de */
 
 .selected1de {
-    background: url(../img/fototgraf-wernigerode-1.webp) no-repeat 50% 50%;
+    background: url(../img/fototgraf-wernigerode-1.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -545,7 +545,7 @@ nav #menu li a:hover {
 }
 
 .selected2de {
-    background: url(../img/fototgraf-wernigerode-2.webp) no-repeat 50% 50%;
+    background: url(../img/fototgraf-wernigerode-2.jpg) no-repeat 50% 50%;
     background-size: cover;
     /* überdeckt den ganzen container */
 }
@@ -563,7 +563,7 @@ nav #menu li a:hover {
 }
 
 .selected3de {
-    background: url(../img/fototgraf-wernigerode-3.webp) no-repeat 50% 50%;
+    background: url(../img/fototgraf-wernigerode-3.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -580,7 +580,7 @@ nav #menu li a:hover {
 }
 
 .selected4de {
-    background: url(../img/fototgraf-wernigerode-4.webp) no-repeat 50% 50%;
+    background: url(../img/fototgraf-wernigerode-4.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -640,7 +640,7 @@ nav #menu li a:hover {
 
 /* selbserklärend, nichts neues */
 #about-image {
-    background: url(../img/creative/work-creative3.webp) no-repeat 50% 50%;
+    background: url(../img/creative/work-creative3.jpg) no-repeat 50% 50%;
     background-size: cover;
     height: 80vh;
     margin-top: 15vh;
