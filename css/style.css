@@ -11,8 +11,43 @@ body {
 }
 
 /* FILLER */
-
-
+  
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 0px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.75);
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 3;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    padding: 0px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: rgba(0, 0, 0, 1);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 /* filler sind einfach nur Abstandshalter die man einsetzen kann um einen absatz zu setzten,
    man kann auch einfach nur <br> einsetzten aber diese Variante ist weitaus eleganter. Zudem
    wäre es auch möglich den folgenden Elementen einfach ne Margin Top zu vergeben, doch in
