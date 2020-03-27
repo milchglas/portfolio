@@ -114,7 +114,7 @@ nav #menu {
     height: 20vh;
 }
 
-.wedding-part1 h1{
+.wedding-part1 h2 {
     margin-top: 5vh;
     font-size: 50px;
 }
@@ -234,7 +234,7 @@ nav #menu {
     height: 100vh; 
 }
 
-.wedding-part2 h1{
+.wedding-part2 h2{
     margin-top: 5vh;
     font-size: 50px;
 }
@@ -390,7 +390,7 @@ nav #menu {
     color: #101010;
 }
 
-.wedding-part3 h1{
+.wedding-part3 h2{
     margin-top: 5vh;
     font-size: 50px;
 }
@@ -624,7 +624,7 @@ textarea:focus {
     transform: rotate(45deg);
   }
 
-.h1mobile {
+.h2mobile {
     display: none;
 }
 
@@ -662,25 +662,25 @@ textarea:focus {
         margin-top: 0;
     }
 
-    .container-fluid h1 {
+    .container-fluid h2 {
         font-size: 40px;
     }
 
-    .wedding-part1 h1 {
+    .wedding-part1 h2 {
         margin-top: 0;
     }
 
-    .wedding-part2 h1 {
+    .wedding-part2 h2 {
         margin-top: 0;
     }
 
-    .wedding-part3 h1 {
+    .wedding-part3 h2 {
         margin-top: 0;
     }
-    .h1desktop{
+    .h2desktop{
         display: none;
     }
-    .h1mobile{
+    .h2mobile{
         display: inline;
     }
     .wedding-part3 .text {
