@@ -732,7 +732,6 @@ h3 {
     height: auto;
 }
 
-
 .wedding-part4 .question {
     font-family: 'Roboto Mono';
     font-weight: 300;
@@ -741,12 +740,33 @@ h3 {
     color: #AAAAAA;
     margin-bottom: 3vh;
 }
-.weeding-part4 h2{
-    margin-top: 40vh;
-}
 
 .wedding-part4 .text {
     font-family: "Martel";
     color: #767676;
     line-height: 40px;
+}
+
+@media(max-width: 768px) {
+    h3 {
+        font-size: 10px;
+    }
+    .content4-right {
+        text-align: center;
+        margin-right: 0;
+        margin-top: 0vh;
+    }
+    .content4 {
+        text-align: center;
+        margin-left: 0;
+        height: 150px;
+    }
+    .faqheading{
+        margin-top: 6vh;
+        margin-left: 0;
+    }
+    .wedding-part4 {
+        justify-content: center;
+        text-align: center;
+    }
 }
