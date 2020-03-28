@@ -317,6 +317,7 @@ nav #menu {
 }
 
 @media(max-width: 768px) {
+    
     .hide {
         display: inline;
     }
@@ -704,7 +705,7 @@ textarea:focus {
     margin-top: 6vh;
     margin-left: 14%;
 }
-h3 {
+.wedding-part4 h3 {
     font-size: 40px;
     font-family: "Martel";
     color: #464646;
@@ -748,8 +749,14 @@ h3 {
 }
 
 @media(max-width: 768px) {
-    h3 {
-        font-size: 10px;
+    #frage1{
+        margin-top: 15vh;
+    }
+    .hero2 h1 {
+        font-size: 30px;
+    }
+    .wedding-part4 h3 {
+        font-size: 25px;
     }
     .content4-right {
         text-align: center;
@@ -760,11 +767,13 @@ h3 {
         text-align: center;
         margin-left: 0;
         height: 150px;
+        margin-top: 2vh;
     }
-    .faqheading{
+    .faqheading {
         margin-top: 6vh;
         margin-left: 0;
     }
+
     .wedding-part4 {
         justify-content: center;
         text-align: center;
