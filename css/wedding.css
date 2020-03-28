@@ -316,13 +316,6 @@ nav #menu {
     display: none;
 }
 
-.horizontal-line2 {
-    position: absolute;
-    margin-top: 500px;
-    background: rgba(0, 0, 0, 0.2);
-    height: 1px;
-}
-
 @media(max-width: 768px) {
     .hide {
         display: inline;
@@ -703,3 +696,57 @@ textarea:focus {
     }
 }
   
+
+/* TEIL 4 */
+
+.faqheading{
+    position: absolute;
+    margin-top: 6vh;
+    margin-left: 14%;
+}
+h3 {
+    font-size: 40px;
+    font-family: "Martel";
+    color: #464646;
+}
+
+.content4 {
+    margin-top: 13vh;
+    margin-left: 15%;
+    width: 100%;
+}
+
+.content4-right {
+    margin-top: 13vh;
+    margin-bottom: auto;
+    margin-right: 15%;
+}
+
+.wedding-part4 {
+    display: flex;
+    font-family: "Martel";
+    font-weight: 400;
+    background:#fafaf8;
+    color: #464646;
+    text-align: left;
+    height: auto;
+}
+
+
+.wedding-part4 .question {
+    font-family: 'Roboto Mono';
+    font-weight: 300;
+    letter-spacing: 4px;
+    font-size: 16px;
+    color: #AAAAAA;
+    margin-bottom: 3vh;
+}
+.weeding-part4 h2{
+    margin-top: 40vh;
+}
+
+.wedding-part4 .text {
+    font-family: "Martel";
+    color: #767676;
+    line-height: 40px;
+}
