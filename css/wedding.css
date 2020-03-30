@@ -1,781 +1,807 @@
-/* Überschriften Hochzeit */@font-face {font-family: "Derivia Regular"; src: url("../Derivia-Regular.woff") format('woff');font-display: swap;}
+/* Überschriften Hochzeit */
+@font-face {
+  font-family: "Derivia Regular";
+  src: url("../Derivia-Regular.woff") format('woff');
+  font-display: swap;
+}
+
 header,
 footer {
-    font-family: "Roboto Mono" !important;
+  font-family: "Roboto Mono" !important;
 }
 
 /* navigation static */
 nav {
-    position: static;
+  position: static;
 }
 
 nav #menu {
-    position: absolute;
-    right: 8%;
+  position: absolute;
+  right: 8%;
 }
 
 #navwork {
-    position: static;
+  position: static;
 }
-
 
 .hero2 {
-    /* Main Content auf der Startseite */
-    height: 92vh;
-    /* viewport height ist 100 damit immer genau das Bild / die Hero Section den ganzen Bildschirm einnimmt. */
-    display: flex;
-    /*align-items: center;*/
-    background: url(../img/wedding/wedding-page1-croph.jpg) no-repeat 50% 50%;
-    background-size: cover;
-    font-family: "Derivia Regular";
-    justify-content: center;
+  /* Main Content auf der Startseite */
+  height: 92vh;
+  /* viewport height ist 100 damit immer genau das Bild / die Hero Section den ganzen Bildschirm einnimmt. */
+  display: flex;
+  /*align-items: center;*/
+  background: url(../img/wedding/wedding-page1-croph.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  font-family: "Derivia Regular";
+  justify-content: center;
 }
 
-.hero2-text{
-    position: absolute;
-    bottom: 30vh;
+.hero2-text {
+  position: absolute;
+  bottom: 30vh;
 }
 
 .hero2 h1 {
-    font-size: 60px;
-    font-family: "Montserrat";
-    text-align: center;
+  font-size: 60px;
+  font-family: "Montserrat";
+  text-align: center;
 }
 
 .hero2 h3 {
-    font-size: 20px;
-    text-align: center;
-    font-family: "EB Garamond";
-    font-style: italic;
+  font-size: 20px;
+  text-align: center;
+  font-family: "EB Garamond";
+  font-style: italic;
 }
+
 .hero2 a {
-    position: absolute;
-    margin-top: 70px;
-    left: 50%;
-    margin-left: -100px;
+  position: absolute;
+  margin-top: 70px;
+  left: 50%;
+  margin-left: -100px;
 }
 
 .hero2 button {
-    width: 200px;
-    padding: 10px 30px;
-    background: transparent;
-    color: #fafaf8;
-    font-size: 14px;
-    letter-spacing: 2px;
-    font-family: "Martel";
+  width: 200px;
+  padding: 10px 30px;
+  background: transparent;
+  color: #fafaf8;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-family: "Martel";
 }
 
-.hero2 button:hover { 
-    /* farben werden invertiert */
-    background: #fafaf8;
-    color: #101010;
+.hero2 button:hover {
+  /* farben werden invertiert */
+  background: #fafaf8;
+  color: #101010;
 }
 
 /* TEIL 1*/
 .text {
-    font-size: 19px;
+  font-size: 19px;
 }
+
 .content1 {
-    margin-top: auto;
-    margin-bottom: auto;
-    width: 100%;
-    margin-left: 15%;
-    margin-right: 7%;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 100%;
+  margin-left: 15%;
+  margin-right: 7%;
 }
 
 .wedding-part1 {
-    display: flex;
-    font-family: "Martel";
-    font-weight: 400;
-    justify-content: center;
-    background: #fafaf8;
-    color: #464646;
-    text-align: left;
-    height: 100vh;
+  display: flex;
+  font-family: "Martel";
+  font-weight: 400;
+  justify-content: center;
+  background: #fafaf8;
+  color: #464646;
+  text-align: left;
+  height: 100vh;
 }
 
 .content1 button {
-    margin-top: 3vh;
-    padding: 18px 35px;
-    background: transparent;
-    color: #fafaf8;
-    background: #101010;
-    font-size: 18px;
-    letter-spacing: 2px;
+  margin-top: 3vh;
+  padding: 18px 35px;
+  background: transparent;
+  color: #fafaf8;
+  background: #101010;
+  font-size: 18px;
+  letter-spacing: 2px;
 }
 
-.content1 button:hover { 
-    /* farben werden invertiert */
-    background:  #fafaf8;
-    color: #101010;
+.content1 button:hover {
+  /* farben werden invertiert */
+  background: #fafaf8;
+  color: #101010;
 }
 
 .content1 img {
-    height: 20vh;
+  height: 20vh;
 }
 
 .wedding-part1 h2 {
-    margin-top: 5vh;
-    font-size: 50px;
+  margin-top: 5vh;
+  font-size: 50px;
 }
 
 .wedding-part1 .überschrift {
-    font-family: 'Roboto Mono';
-    font-weight: 300;
-    letter-spacing: 2px;
-    font-size: 14px;
+  font-family: 'Roboto Mono';
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 14px;
 }
 
 .wedding-part1 .text {
-    margin-top: 4vh;
-    font-family: "Martel";
-    color: #767676;
-    line-height: 40px;
+  margin-top: 4vh;
+  font-family: "Martel";
+  color: #767676;
+  line-height: 40px;
 }
 
-.vertical{
-    background:  #fafaf8;
+.vertical {
+  background: #fafaf8;
 }
 
 .vertical .überschrift {
-    position: absolute;
-    margin-top: 7vh;
-    margin-left: 3vh;
-    color: #ababab;
-    font-family: 'Roboto Mono';
-    font-weight: 300;
-    letter-spacing: 3px;
-    font-size: 14px;
+  position: absolute;
+  margin-top: 7vh;
+  margin-left: 3vh;
+  color: #ababab;
+  font-family: 'Roboto Mono';
+  font-weight: 300;
+  letter-spacing: 3px;
+  font-size: 14px;
 }
 
-.vertical .couple{
-    position: absolute;
-    margin-top: 9vh;
-    color: #464646;
-    font-size: 22px;
-    font-family: "EB Garamond";
-    font-style: italic;
-    margin-left: 3vh;
+.vertical .couple {
+  position: absolute;
+  margin-top: 9vh;
+  color: #464646;
+  font-size: 22px;
+  font-family: "EB Garamond";
+  font-style: italic;
+  margin-left: 3vh;
 }
 
 .vertical .überschrift2 {
-    position: absolute;
-    margin-top: 88vh;
-    margin-left: 3vh;
-    color: #ababab;
-    font-family: 'Roboto Mono';
-    font-weight: 300;
-    letter-spacing: 3px;
-    font-size: 14px;
+  position: absolute;
+  margin-top: 88vh;
+  margin-left: 3vh;
+  color: #ababab;
+  font-family: 'Roboto Mono';
+  font-weight: 300;
+  letter-spacing: 3px;
+  font-size: 14px;
 }
 
-.vertical .couple2{
-    position: absolute;
-    margin-top: 90vh;
-    color: #464646;
-    font-size: 22px;
-    font-family: "EB Garamond";
-    font-style: italic;
-    margin-left: 3vh;
+.vertical .couple2 {
+  position: absolute;
+  margin-top: 90vh;
+  color: #464646;
+  font-size: 22px;
+  font-family: "EB Garamond";
+  font-style: italic;
+  margin-left: 3vh;
 }
 
 .vertical-line {
-    position: absolute;
-    margin-top: 20vh;
-    height: 60vh;
-    border-left: 0.9px solid;
-    margin-left: 2vh;
-    border-style: solid;
-    border-color: #ababab;
+  position: absolute;
+  margin-top: 20vh;
+  height: 60vh;
+  border-left: 0.9px solid;
+  margin-left: 2vh;
+  border-style: solid;
+  border-color: #ababab;
 }
 
 .wedding-part1-right {
-    background:  #fafaf8;
+  background: #fafaf8;
 }
 
-.wedding-part1-right .img1{
-    height: 44vh;
-    position: absolute;
-    margin-top: 42vh;
-    margin-left: 22vh;
+.wedding-part1-right .img1 {
+  height: 44vh;
+  position: absolute;
+  margin-top: 42vh;
+  margin-left: 22vh;
 }
 
-.wedding-part1-right .img2{
-    height: 44vh;
-    position: absolute;
-    margin-top: 13vh;
+.wedding-part1-right .img2 {
+  height: 44vh;
+  position: absolute;
+  margin-top: 13vh;
 }
 
 @media(max-width: 768px) {
-    .weddingsize {
-        /* Größe der Bilder im Mobile View */
-        width: 90% !important;
-        margin: 14px auto;
-    }
+  .weddingsize {
+    /* Größe der Bilder im Mobile View */
+    width: 90% !important;
+    margin: 14px auto;
+  }
 }
 
-
-
 /* TEIL 2*/
-
 .content2 {
-    margin-top: auto;
-    margin-bottom: auto;
-    width: 80%;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 80%;
 }
 
 .wedding-part2 {
-    display: flex;
-    font-family: "Martel";
-    text-align: center;
-    justify-content: center;
-    background: white;
-    color: #464646;
-    height: 100vh; 
+  display: flex;
+  font-family: "Martel";
+  text-align: center;
+  justify-content: center;
+  background: white;
+  color: #464646;
+  height: 100vh;
 }
 
-.wedding-part2 h2{
-    margin-top: 5vh;
-    font-size: 50px;
+.wedding-part2 h2 {
+  margin-top: 5vh;
+  font-size: 50px;
 }
 
 .wedding-part2 .überschrift {
-    color: #464646;
-    font-family: 'Roboto Mono';
-    font-weight: 300;
-    letter-spacing: 2px;
+  color: #464646;
+  font-family: 'Roboto Mono';
+  font-weight: 300;
+  letter-spacing: 2px;
 }
 
 .wedding-part2 .text {
-    margin-top: 4vh;
-    font-family: "Martel";
-    color: #767676;
-    line-height: 40px;
+  margin-top: 4vh;
+  font-family: "Martel";
+  color: #767676;
+  line-height: 40px;
 }
 
 .trennlinie2 {
-    margin-top: 5vh;
-    overflow: visible; /* For IE */
-    height: 30px;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px 0 0 0;
-    border-radius: 20px;
+  margin-top: 5vh;
+  overflow: visible;
+  /* For IE */
+  height: 30px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
 }
-.trennlinie2:before { /* Not really supposed to work, but does */
-    display: block;
-    content: "";
-    height: 30px;
-    margin-top: -31px;
-    border-style: solid;
-    border-color: black;
-    border-width: 0 0 1px 0;
-    border-radius: 20px;
+
+.trennlinie2:before {
+  /* Not really supposed to work, but does */
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: black;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
 }
 
 .content2 button {
-    margin-top: 3vh;
-    padding: 18px 35px;
-    background: transparent;
-    color: #fafaf8;
-    background: #101010;
-    font-size: 18px;
-    letter-spacing: 2px;
+  margin-top: 3vh;
+  padding: 18px 35px;
+  background: transparent;
+  color: #fafaf8;
+  background: #101010;
+  font-size: 18px;
+  letter-spacing: 2px;
 }
 
-.content2 button:hover { 
-    /* farben werden invertiert */
-    background:  #ffffff;
-    color: #101010;
+.content2 button:hover {
+  /* farben werden invertiert */
+  background: #ffffff;
+  color: #101010;
 }
 
 .content2 img {
-    height: 160px;
+  height: 160px;
 }
 
 .weddingsize {
-    height: 100vh;
+  height: 100vh;
 }
 
 .wedding-img2 {
-    background: url(../img/wedding/wedding-page2-crop.jpg) no-repeat 50% 50%;
-    background-size: cover;
+  background: url(../img/wedding/wedding-page2-crop.jpg) no-repeat 50% 50%;
+  background-size: cover;
 }
 
 .wedding-img3 {
-    background: url(../img/weddings/wedding2.jpg) no-repeat 50% 50%;
-    background-size: cover;
+  background: url(../img/weddings/wedding2.jpg) no-repeat 50% 50%;
+  background-size: cover;
 }
 
 .wedding-img-4 {
-    background: url(../img/weddings/wedding7.jpg) no-repeat 50% 50%;
-    background-size: cover;
+  background: url(../img/weddings/wedding7.jpg) no-repeat 50% 50%;
+  background-size: cover;
 }
 
 .hide {
-    display: none;
+  display: none;
 }
 
 @media(max-width: 768px) {
-    
-    .hide {
-        display: inline;
-    }
-    .weddingsize {
-        /* Größe der Bilder im Mobile View */
-        width: 90% !important;
-        margin: 14px auto;
-    }
-    .content1 {
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-    .content2 {
-        width: 90%;
-    }
-    .content2 img {
-        display: none;
-    }
-    .content2 button {
-        margin-top: 0vh;
-    }
-    .trennlinie2{
-        display: none;
-    }
+  .hide {
+    display: inline;
+  }
+
+  .weddingsize {
+    /* Größe der Bilder im Mobile View */
+    width: 90% !important;
+    margin: 14px auto;
+  }
+
+  .content1 {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .content2 {
+    width: 90%;
+  }
+
+  .content2 img {
+    display: none;
+  }
+
+  .content2 button {
+    margin-top: 0vh;
+  }
+
+  .trennlinie2 {
+    display: none;
+  }
 }
 
-
-
-
-
 /* TEIL 3 */
-
 .content3 {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 15%;
-    margin-right: 40vh;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 15%;
+  margin-right: 40vh;
 }
 
 .wedding-part3 {
-    display: flex;
-    font-family: "Martel";
-    font-weight: 400;
-    justify-content: center;
-    background: white;
-    color: #464646;
-    text-align: left;
-    height: 100vh;
+  display: flex;
+  font-family: "Martel";
+  font-weight: 400;
+  justify-content: center;
+  background: white;
+  color: #464646;
+  text-align: left;
+  height: 100vh;
 }
 
 .content3 button {
-    margin-top: 3vh;
-    padding: 18px 35px;
-    background: transparent;
-    color: #fafaf8;
-    background: #101010;
-    font-size: 18px;
-    letter-spacing: 2px;
+  margin-top: 3vh;
+  padding: 18px 35px;
+  background: transparent;
+  color: #fafaf8;
+  background: #101010;
+  font-size: 18px;
+  letter-spacing: 2px;
 }
 
-.content3 button:hover { 
-    /* farben werden invertiert */
-    background: #fff;
-    color: #101010;
+.content3 button:hover {
+  /* farben werden invertiert */
+  background: #fff;
+  color: #101010;
 }
 
-.wedding-part3 h2{
-    margin-top: 5vh;
-    font-size: 50px;
+.wedding-part3 h2 {
+  margin-top: 5vh;
+  font-size: 50px;
 }
 
 .wedding-part3 .überschrift {
-    font-family: 'Roboto Mono';
-    font-weight: 300;
-    letter-spacing: 2px;
-    font-size: 14px;
+  font-family: 'Roboto Mono';
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 14px;
 }
 
 .wedding-part3 .text {
-    margin-top: 4vh;
-    font-family: "Martel";
-    color: #767676;
-    line-height: 40px;
+  margin-top: 4vh;
+  font-family: "Martel";
+  color: #767676;
+  line-height: 40px;
 }
 
 .wedding-part3 .horizontal-line {
-    width: 0px;
-    margin-top: 2vh;
-    height: 1px;
-    margin-left: 0vh;
-    border-color: #ababab;
+  width: 0px;
+  margin-top: 2vh;
+  height: 1px;
+  margin-left: 0vh;
+  border-color: #ababab;
 }
 
-.wedding-part3 .img1{
-    position: absolute;
-    height: 65vh;
-    margin-top: 13vh;
-    margin-left: 45vh;
-    z-index: 9;
+.wedding-part3 .img1 {
+  position: absolute;
+  height: 65vh;
+  margin-top: 13vh;
+  margin-left: 45vh;
+  z-index: 9;
 }
 
 .wedding-part3-right {
-    background:  #FBF5F1;
-    text-align: right;
+  background: #FBF5F1;
+  text-align: right;
 }
 
-.wedding-part3-right img{
-    height: 23vh;
-    margin-top: 13vh;
-    margin-right: 13vh;
+.wedding-part3-right img {
+  height: 23vh;
+  margin-top: 13vh;
+  margin-right: 13vh;
 }
 
 .wedding-part3-right .überschrift {
-    font-family: 'Roboto Mono';
-    font-weight: 300;
-    letter-spacing: 2px;
-    font-size: 18px;
-    margin-top: 37vh;
-    margin-right: 13vh;
-    color: #AAAAAA;
+  font-family: 'Roboto Mono';
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 18px;
+  margin-top: 37vh;
+  margin-right: 13vh;
+  color: #AAAAAA;
 }
 
 .wedding-part3-right .couple {
-    position: relative;
-    margin-top: -2vh;
-    margin-right: 13vh;
-    color: #464646;
-    font-size: 22px;
-    font-family: "EB Garamond";
-    font-style: italic;
+  position: relative;
+  margin-top: -2vh;
+  margin-right: 13vh;
+  color: #464646;
+  font-size: 22px;
+  font-family: "EB Garamond";
+  font-style: italic;
 }
 
-
-
 .pn-btn {
-    right: 40px;
-    bottom: 80px;
-    position: absolute;
-    padding: 5px 10px;
-    background: transparent;
-    color: #fafaf8;
-    background: #101010;
-    font-size: 18px;
-    letter-spacing: 2px;
+  right: 40px;
+  bottom: 80px;
+  position: absolute;
+  padding: 5px 10px;
+  background: transparent;
+  color: #fafaf8;
+  background: #101010;
+  font-size: 18px;
+  letter-spacing: 2px;
 }
 
 .pn-btn2 {
-    right: 40px;
-    bottom: 40px;
-    position: absolute;
-    padding: 5px 10px;
-    background: transparent;
-    color: #fafaf8;
-    background: #101010;
-    font-size: 18px;
-    letter-spacing: 2px;
+  right: 40px;
+  bottom: 40px;
+  position: absolute;
+  padding: 5px 10px;
+  background: transparent;
+  color: #fafaf8;
+  background: #101010;
+  font-size: 18px;
+  letter-spacing: 2px;
 }
 
 .grau {
-    background: #AAAAAA;
-    cursor: default;
+  background: #AAAAAA;
+  cursor: default;
 }
 
 .prev:after {
-    content: "↑"
+  content: "↑"
 }
 
 .next:after {
-    content: "↓"
+  content: "↓"
 }
 
 /* CONTACT */
-
-
 .contact-wedding {
-    background-color: white;
-    height: auto;
-    padding-bottom: 8vh;
-    text-align: center;
-    justify-content: center;
+  background-color: white;
+  height: auto;
+  padding-bottom: 8vh;
+  text-align: center;
+  justify-content: center;
 }
 
-.form-wedding { 
-    margin-top: 8vh;
+.form-wedding {
+  margin-top: 8vh;
 }
 
 #contact-form-wedding label {
-    margin-top: 4vh;
-    font-family: "Martel";
-    color: #464646;
-    font-size: 19px;
+  margin-top: 4vh;
+  font-family: "Martel";
+  color: #464646;
+  font-size: 19px;
 }
 
 #contact-name, #contact-email,
 /* Eingabefeld Name, Email */
-#contact-form-wedding textarea 
-/* Eingabefeld Message */{
-    width: 70%;
-    font-size: 15px;
-    margin-left: 15%;
-    margin-right: 15%;
-    padding: 10px 30px; 
-    /* Eingaben ein wenig eingeschoben */
-    border: 0.75px solid #fff;
-    background:#FBF5F1;
-    color: #767676;;
-    resize: vertical; 
-    /* Fenster kann vertikal erweiter werden */
+#contact-form-wedding textarea
+
+/* Eingabefeld Message */
+  {
+  width: 70%;
+  font-size: 15px;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 10px 30px;
+  /* Eingaben ein wenig eingeschoben */
+  border: 0.75px solid #fff;
+  background: #FBF5F1;
+  color: #767676;
+  ;
+  resize: vertical;
+  /* Fenster kann vertikal erweiter werden */
 }
+
 #contact-form-wedding textarea {
-    padding: 20px 30px; 
+  padding: 20px 30px;
 }
 
 input:focus,
 textarea:focus {
-    outline: none;
+  outline: none;
 }
 
 .send {
-    margin-top: 1vh;
-    padding: 18px 4%;
-    background: transparent;
-    color: #FBF5F1;
-    background: #101010;
-    font-size: 18px;
-    letter-spacing: 2px;
-}
-.send:hover { 
-    background: #FBF5F1;
-    color: #101010;
+  margin-top: 1vh;
+  padding: 18px 4%;
+  background: transparent;
+  color: #FBF5F1;
+  background: #101010;
+  font-size: 18px;
+  letter-spacing: 2px;
 }
 
+.send:hover {
+  background: #FBF5F1;
+  color: #101010;
+}
 
 /* Customize the label (the container) */
 .container-check {
-    cursor: pointer;
-    font-size: 22px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    width: 70%;  
-    margin-left: 15%;
-    margin-right: 15%;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
-  /* Hide the browser's default checkbox */
-  input[type=checkbox] {
-    display: inline-block;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    opacity: 0;
+/* Hide the browser's default checkbox */
+input[type=checkbox] {
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  opacity: 0;
 }
-  /* Create a custom checkbox */
-  .checkmark {
-    position: absolute;
-    margin-left: -20px;
-    height: 26px;
-    width: 26px;
-    background-color: #eee;
-  }
-  
-  /* On mouse-over, add a grey background color */
-  .container-check:hover input ~ .checkmark {
-    background-color: #ccc;
-  }
-  
-  /* When the checkbox is checked, add a blue background */
-  .container-check input:checked ~ .checkmark {
-    background-color: #101010;
-  }
-  
-  /* Create the checkmark/indicator (hidden when not checked) */
-  .checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-  }
-  
-  /* Show the checkmark when checked */
-  .container-check input:checked ~ .checkmark:after {
-    display: block;
-  }
-  
-  /* Style the checkmark/indicator */
-  .container-check .checkmark:after {
-    left: 9px;
-    top: 6px;
-    width: 7px;
-    height: 12px;
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-  }
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  margin-left: -20px;
+  height: 26px;
+  width: 26px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container-check:hover input~.checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container-check input:checked~.checkmark {
+  background-color: #101010;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container-check input:checked~.checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container-check .checkmark:after {
+  left: 9px;
+  top: 6px;
+  width: 7px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
 
 .h2mobile {
-    display: none;
+  display: none;
 }
 
 @media(max-width: 768px) {
-    .wedding-part1{
-        text-align: center;
-    }
-    .wedding-part1-right{
-        display: none;
-    }
-    .wedding-part1 img{
-        display: none;
-    }
-    .wedding-part3-right{
-        display: none;
-    }
-    .wedding-part3 .img1 {
-        display: none;
-    }
-    .pn-btn{
-        display: none;
-    }
-    .pn-btn2{
-        display: none;
-    }
-    .wedding-part3 {
-        text-align: center;
-    }
-    .content3 {
-        margin-left: 5%;
-        margin-right: 5%;
-    }
+  .wedding-part1 {
+    text-align: center;
+  }
 
-    .content3 button {
-        margin-top: 0;
-    }
+  .wedding-part1-right {
+    display: none;
+  }
 
-    .container-fluid h2 {
-        font-size: 40px;
-    }
+  .wedding-part1 img {
+    display: none;
+  }
 
-    .wedding-part1 h2 {
-        margin-top: 0;
-    }
+  .wedding-part3-right {
+    display: none;
+  }
 
-    .wedding-part2 h2 {
-        margin-top: 0;
-    }
+  .wedding-part3 .img1 {
+    display: none;
+  }
 
-    .wedding-part3 h2 {
-        margin-top: 0;
-    }
-    .h2desktop{
-        display: none;
-    }
-    .h2mobile{
-        display: inline;
-    }
-    .wedding-part3 .text {
-        margin-top: 0vh;
-    }
-    .text {
-        font-size: 15px;
-    }
-    .form-wedding { 
-        margin-top: 3vh;
-    }
-    #contact-form-wedding label {
-        margin-top: 4vh;
-        font-size: 15px;
-    }
+  .pn-btn {
+    display: none;
+  }
 
-    #contact-name, #contact-email,
-    #contact-form-wedding textarea {
+  .pn-btn2 {
+    display: none;
+  }
+
+  .wedding-part3 {
+    text-align: center;
+  }
+
+  .content3 {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .content3 button {
+    margin-top: 0;
+  }
+
+  .container-fluid h2 {
+    font-size: 40px;
+  }
+
+  .wedding-part1 h2 {
+    margin-top: 0;
+  }
+
+  .wedding-part2 h2 {
+    margin-top: 0;
+  }
+
+  .wedding-part3 h2 {
+    margin-top: 0;
+  }
+
+  .h2desktop {
+    display: none;
+  }
+
+  .h2mobile {
+    display: inline;
+  }
+
+  .wedding-part3 .text {
+    margin-top: 0vh;
+  }
+
+  .text {
+    font-size: 15px;
+  }
+
+  .form-wedding {
+    margin-top: 3vh;
+  }
+
+  #contact-form-wedding label {
+    margin-top: 4vh;
+    font-size: 15px;
+  }
+
+  #contact-name, #contact-email,
+  #contact-form-wedding textarea {
     font-size: 12px;
-    }
+  }
 }
-  
 
 /* TEIL 4 */
-
-.faqheading{
-    position: absolute;
-    margin-top: 6vh;
-    margin-left: 14%;
+.faqheading {
+  position: absolute;
+  margin-top: 6vh;
+  margin-left: 14%;
 }
+
 .wedding-part4 h3 {
-    font-size: 30px;
-    font-family: "Martel";
-    color: #464646;
+  font-size: 30px;
+  font-family: "Martel";
+  color: #464646;
 }
 
 .content4 {
-    margin-top: 13vh;
-    margin-left: 15%;
-    width: 100%;
+  margin-top: 13vh;
+  margin-left: 15%;
+  width: 100%;
 }
 
 .content4-right {
-    margin-top: 13vh;
-    margin-bottom: auto;
-    margin-right: 15%;
+  margin-top: 13vh;
+  margin-bottom: auto;
+  margin-right: 15%;
 }
 
 .wedding-part4 {
-    display: flex;
-    font-family: "Martel";
-    font-weight: 400;
-    background:#fafaf8;
-    color: #464646;
-    text-align: left;
-    height: auto;
+  display: flex;
+  font-family: "Martel";
+  font-weight: 400;
+  background: #fafaf8;
+  color: #464646;
+  text-align: left;
+  height: auto;
 }
 
 .wedding-part4 .question {
-    font-family: 'Roboto Mono';
-    font-weight: 300;
-    letter-spacing: 4px;
-    font-size: 16px;
-    color: #AAAAAA;
-    margin-bottom: 3vh;
+  font-family: 'Roboto Mono';
+  font-weight: 300;
+  letter-spacing: 4px;
+  font-size: 16px;
+  color: #AAAAAA;
+  margin-bottom: 3vh;
 }
 
 .wedding-part4 .text {
-    font-family: "Martel";
-    color: #767676;
-    line-height: 40px;
+  font-family: "Martel";
+  color: #767676;
+  line-height: 40px;
 }
 
 @media(max-width: 768px) {
-    #frage1{
-        margin-top: 15vh;
-    }
-    .hero2 h1 {
-        font-size: 30px;
-    }
-    .wedding-part4 h3 {
-        font-size: 25px;
-    }
-    .content4-right {
-        text-align: center;
-        margin-right: 0;
-        margin-top: 0vh;
-    }
-    .content4 {
-        text-align: center;
-        margin-left: 0;
-        height: 150px;
-        margin-top: 2vh;
-    }
-    .faqheading {
-        margin-top: 6vh;
-        margin-left: 0;
-    }
+  #frage1 {
+    margin-top: 15vh;
+  }
 
-    .wedding-part4 {
-        justify-content: center;
-        text-align: center;
-    }
+  .hero2 h1 {
+    font-size: 30px;
+  }
+
+  .wedding-part4 h3 {
+    font-size: 25px;
+  }
+
+  .content4-right {
+    text-align: center;
+    margin-right: 0;
+    margin-top: 0vh;
+  }
+
+  .content4 {
+    text-align: center;
+    margin-left: 0;
+    height: 150px;
+    margin-top: 2vh;
+  }
+
+  .faqheading {
+    margin-top: 6vh;
+    margin-left: 0;
+  }
+
+  .wedding-part4 {
+    justify-content: center;
+    text-align: center;
+  }
 }

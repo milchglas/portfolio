@@ -1,172 +1,160 @@
 /* WORK GRID */
-
 .container-work {
-    opacity: 1.0;
-    transition: .3s ease-in-out;
+  opacity: 1.0;
+  transition: .3s ease-in-out;
 }
 
 .container-work:hover {
-    opacity: 0.65;
-    transition: .3s ease-in-out;
-    cursor: pointer;
+  opacity: 0.65;
+  transition: .3s ease-in-out;
+  cursor: pointer;
 }
 
-
-
 /* WEDDING */
-
 #text-work-wedding {
-    text-align: center;
-    color: #fff;
+  text-align: center;
+  color: #fff;
 }
 
 #text-work-wedding:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .container-work-wedding {
-    height: 350px;
+  height: 350px;
 }
-
 
 .img2-work-wedding {
-    background: url(../img/weddings/work-wedding2.jpg) no-repeat 50% 50%;
-    background-size: cover;
+  background: url(../img/weddings/work-wedding2.jpg) no-repeat 50% 50%;
+  background-size: cover;
 }
 
-
 @media(min-width: 768px) {
-    .filler7 {
-        display: none;
-    }
-    .filler8 {
-        display: none;
-    }
+  .filler7 {
+    display: none;
+  }
+
+  .filler8 {
+    display: none;
+  }
 }
 
 @media(max-width: 768px) {
-    .container-work-wedding {
-        height: 75vh;
-    }
+  .container-work-wedding {
+    height: 75vh;
+  }
 }
 
-
 /* PORTRAIT */
-
 #text-work-portrait {
-    text-align: center;
-    color: #fff;
+  text-align: center;
+  color: #fff;
 }
 
 #text-work-portrait:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .container-work-portrait {
-    height: 300px;
+  height: 300px;
 }
 
 .container-work-portrait2 {
-    height: 400px;
+  height: 400px;
 }
 
-
 .img2-work-portrait {
-    background: url(../img/portrait/work-portrait1.jpg) no-repeat 50% 50%;
-    background-size: cover;
+  background: url(../img/portrait/work-portrait1.jpg) no-repeat 50% 50%;
+  background-size: cover;
 }
 
 @media(max-width: 768px) {
-    .container-work-portrait2 {
-        height: 75vh;
-    }
+  .container-work-portrait2 {
+    height: 75vh;
+  }
 }
 
-
 /* CREATIVE */
-
 #text-work-creative {
-    text-align: center;
-    color: #fff;
+  text-align: center;
+  color: #fff;
 }
 
 #text-work-creative:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #text-work-creative2 {
-    display: none;
-    text-align: center;
-    color: #fff;
+  display: none;
+  text-align: center;
+  color: #fff;
 }
 
 #text-work-creative2:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .container-work-creative {
-    height: 300px;
+  height: 300px;
 }
 
 .container-work-creative2 {
-    height: 400px;
+  height: 400px;
 }
 
 .img2-work-creative {
-    background: url(../img/creative/work-creative1.jpg) no-repeat 50% 50%;
-    background-size: cover;
-}
-
-
-@media(max-width: 768px) {
-    #text-work-creative2 {
-        display: block;
-    }
+  background: url(../img/creative/work-creative1.jpg) no-repeat 50% 50%;
+  background-size: cover;
 }
 
 @media(max-width: 768px) {
-    #text-work-creative {
-        display: none;
-    }
-    .container-work-creative2,
-    .container-work-creative2 {
-        height: 75vh;
-    }
+  #text-work-creative2 {
+    display: block;
+  }
 }
 
+@media(max-width: 768px) {
+  #text-work-creative {
+    display: none;
+  }
+
+  .container-work-creative2,
+  .container-work-creative2 {
+    height: 75vh;
+  }
+}
 
 /* ARCHITECTURE */
-
 #text-work-architecture {
-    text-align: center;
-    color: #fff;
+  text-align: center;
+  color: #fff;
 }
 
 #text-work-architecture:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .container-work-architecture {
-    height: 550px;
+  height: 550px;
 }
 
 .img1-work-architecture {
-    background: url(../img/architecture/work-architecture1.jpg) no-repeat 50% 50%;
-    background-size: cover;
+  background: url(../img/architecture/work-architecture1.jpg) no-repeat 50% 50%;
+  background-size: cover;
 }
 
 .img2-work-architecture {
-    background: url(../img/architecture/work-architecture2.jpg) no-repeat 50% 50%;
-    background-size: cover;
+  background: url(../img/architecture/work-architecture2.jpg) no-repeat 50% 50%;
+  background-size: cover;
 }
 
 .img3-work-architecture {
-    background: url(../img/architecture/work-architecture3.jpg) no-repeat 50% 50%;
-    background-size: cover;
+  background: url(../img/architecture/work-architecture3.jpg) no-repeat 50% 50%;
+  background-size: cover;
 }
 
 @media(max-width: 768px) {
-    .container-work-architecture {
-        height: 75vh;
-    }
+  .container-work-architecture {
+    height: 75vh;
+  }
 }

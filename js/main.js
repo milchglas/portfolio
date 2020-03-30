@@ -1,18 +1,18 @@
 // NAVIGATION MOBILE
 
 $("#toggle").click(function() {
-      $(this).toggleClass('on');
-      $("#resize").toggleClass("active");
+  $(this).toggleClass('on');
+  $("#resize").toggleClass("active");
 });
 
 $("#resize ul li a").click(function() {
-      $(this).toggleClass('on');
-      $("#resize").toggleClass("active");
+  $(this).toggleClass('on');
+  $("#resize").toggleClass("active");
 });
 
 $(".close-btn").click(function() {
-      $(this).toggleClass('on');
-      $("#resize").toggleClass("active");
+  $(this).toggleClass('on');
+  $("#resize").toggleClass("active");
 });
 
 // NAVIGATION MOBILE END
@@ -20,15 +20,12 @@ $(".close-btn").click(function() {
 // NAVIGATION WORK
 $(window).scroll(function() {
 
-    if ($(this).scrollTop()>$(window).height()/8)
-     {
-        $('.fade-on-scroll').fadeOut();
-     }
-    else
-     {
-      $('.fade-on-scroll').fadeIn();
-     }
- });
+  if ($(this).scrollTop() > $(window).height() / 8) {
+    $('.fade-on-scroll').fadeOut();
+  } else {
+    $('.fade-on-scroll').fadeIn();
+  }
+});
 // NAVIGATION WORK END
 
 // NAV ANIMATION
@@ -36,43 +33,43 @@ $(window).scroll(function() {
 
 //Tweenmax ist ein großer Teil von Greensock und wird hier genutzt um die Navigation smooth einzublenden
 TweenMax.from("#logobild", 1, {
-      delay: 0.4, //0,4 Sekunden nach Initialisierung des html-Elements
-      y: 15,  //von 15 Pixel unten
-      opacity: 0, //Deckkraft auf 0
-      ease: Expo.easeInOut //Geschwindigkeitskurve der Animation
+  delay: 0.4, //0,4 Sekunden nach Initialisierung des html-Elements
+  y: 15, //von 15 Pixel unten
+  opacity: 0, //Deckkraft auf 0
+  ease: Expo.easeInOut //Geschwindigkeitskurve der Animation
 })
 //TweenMax.from( target:Object, duration:Number, vars:Object -> ein Objekt mit Anfangswerten )
 
 TweenMax.from("#logoschrift", 1, {
-      delay: 0.425, //0,425 Sekunden nach Initialisierung des html-Elements
-      y: 15,  //von 15 Pixel unten
-      opacity: 0, //Deckkraft auf 0
-      ease: Expo.easeInOut //Geschwindigkeitskurve der Animation
+  delay: 0.425, //0,425 Sekunden nach Initialisierung des html-Elements
+  y: 15, //von 15 Pixel unten
+  opacity: 0, //Deckkraft auf 0
+  ease: Expo.easeInOut //Geschwindigkeitskurve der Animation
 })
 //TweenMax.from( target:Object, duration:Number, vars:Object -> ein Objekt mit Anfangswerten )
 
 TweenMax.staggerFrom("#menu li a", 1, {
-      delay: 0.5, //0,5 Sekunden nach Initialisierung des html-Elements
-      opacity: 0, //Deckkraft auf 0
-      //Geschwindigkeitskurve der Animation
-      ease: Expo.easeInOut
+  delay: 0.5, //0,5 Sekunden nach Initialisierung des html-Elements
+  opacity: 0, //Deckkraft auf 0
+  //Geschwindigkeitskurve der Animation
+  ease: Expo.easeInOut
 }, 0.1);
 //TweenMax.staggerFrom( targets:Array, duration:Number, vars:Object, stagger:Number -> Zeit zwischen den Elementen )
 
 TweenMax.from("#menu li p", 1, {
-      delay: 1.0, //1 Sekunde nach Initialisierung des html-Elements
-      opacity: 0, //Deckkraft auf 0
-      //Geschwindigkeitskurve der Animation
-      ease: Expo.easeInOut
+  delay: 1.0, //1 Sekunde nach Initialisierung des html-Elements
+  opacity: 0, //Deckkraft auf 0
+  //Geschwindigkeitskurve der Animation
+  ease: Expo.easeInOut
 }, 0.1);
 //TweenMax.staggerFrom( targets:Array, duration:Number, vars:Object, stagger:Number -> Zeit zwischen den Elementen )
 
 
 TweenMax.from(".appear", 1, {
-      delay: 0.7, //0,7 Sekunden nach Initialisierung des html-Elements
-      y: 8,  //von 8 Pixel unten
-      opacity: 0, //Deckkraft auf 0
-      ease: Expo.easeInOut //Geschwindigkeitskurve der Animation
+  delay: 0.7, //0,7 Sekunden nach Initialisierung des html-Elements
+  y: 8, //von 8 Pixel unten
+  opacity: 0, //Deckkraft auf 0
+  ease: Expo.easeInOut //Geschwindigkeitskurve der Animation
 })
 
 // NAV ANIMATION END
@@ -88,14 +85,14 @@ new WOW().init(); //WOW Objekt wird erzeugt -> Animationen können abgespielt we
 
 // Scroll Funktion für Navigation Bar und Back-To-Top Button
 $(document).ready(function() { // JQuery wird benutzt
-      $('.scroll-ani').click(function(e) { // Wenn Element der Klasse scroll-ani geklickt wird, dann passiert folgendes:
-    
-            var targetHref = $(this).attr('href'); // Auf der Variable wird das href Attribut des geklickten Elements gespeichert
-    
-          $('html, body').animate({ // Animate = Befehl von Jquery
-                scrollTop: $(targetHref).offset().top // Eigentliche Animation des scrollens
-          }, 1000); // Gewschwindigkeit des scrollens
-    
-        e.preventDefault(); // Die normale Aktion die beim klicken des Links ausgeführt wird, wird blockiert damit man es animieren kann
-      });
+  $('.scroll-ani').click(function(e) { // Wenn Element der Klasse scroll-ani geklickt wird, dann passiert folgendes:
+
+    var targetHref = $(this).attr('href'); // Auf der Variable wird das href Attribut des geklickten Elements gespeichert
+
+    $('html, body').animate({ // Animate = Befehl von Jquery
+      scrollTop: $(targetHref).offset().top // Eigentliche Animation des scrollens
+    }, 1000); // Gewschwindigkeit des scrollens
+
+    e.preventDefault(); // Die normale Aktion die beim klicken des Links ausgeführt wird, wird blockiert damit man es animieren kann
+  });
 });
