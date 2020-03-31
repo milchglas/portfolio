@@ -805,3 +805,21 @@ input[type=checkbox] {
     text-align: center;
   }
 }
+
+
+.wedding-part5 {
+  display: flex;
+  font-family: "Martel";
+  font-weight: 400;
+  background: #fafaf8;
+  color: #464646;
+  text-align: center;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.wedding-part5 p {
+  font-size: 22px;
+  font-family: "EB Garamond";
+}
