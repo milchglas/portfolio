@@ -323,9 +323,17 @@ nav #menu {
   display: none;
 }
 
+.hidemob {
+  display: inline;
+}
+
 @media(max-width: 768px) {
   .hide {
     display: inline;
+  }
+
+  .hidemob {
+    display: none;
   }
 
   .weddingsize {
@@ -498,14 +506,18 @@ nav #menu {
 .contact-wedding {
   background-color: white;
   height: auto;
+  min-height: 100vh;
   padding-bottom: 8vh;
   text-align: center;
   justify-content: center;
 }
 
 .form-wedding {
-  margin-top: 8vh;
+  min-height: 80vh;
+  height: auto;
+  margin-top: 10vh;
 }
+
 
 #contact-form-wedding label {
   margin-top: 4vh;
@@ -529,7 +541,6 @@ nav #menu {
   border: 0.75px solid #fff;
   background: #FBF5F1;
   color: #767676;
-  ;
   resize: vertical;
   /* Fenster kann vertikal erweiter werden */
 }
@@ -705,7 +716,7 @@ input[type=checkbox] {
   }
 
   .form-wedding {
-    margin-top: 3vh;
+    margin-top: 10vh;
   }
 
   #contact-form-wedding label {
