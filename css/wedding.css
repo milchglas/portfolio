@@ -507,7 +507,6 @@ nav #menu {
   background-color: white;
   height: auto;
   min-height: 100vh;
-  padding-bottom: 8vh;
   text-align: center;
   justify-content: center;
 }
@@ -562,6 +561,7 @@ textarea:focus {
   background: #101010;
   font-size: 18px;
   letter-spacing: 2px;
+  margin-bottom: 10vh;
 }
 
 .send:hover {
