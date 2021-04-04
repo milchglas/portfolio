@@ -4,129 +4,109 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
 <url>
   <loc>https://artofbokeh.com/</loc>
-  <lastmod>2020-04-05T10:33:32+00:00</lastmod>
+  <lastmod>2021-04-04T17:04:03+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://artofbokeh.com/arbeit</loc>
-  <lastmod>2020-04-05T10:33:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://artofbokeh.com/hochzeitsfotograf-harz</loc>
-  <lastmod>2020-04-05T10:33:32+00:00</lastmod>
+  <lastmod>2021-04-04T17:04:03+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://artofbokeh.com/portraits</loc>
-  <lastmod>2020-04-05T10:33:32+00:00</lastmod>
+  <lastmod>2021-04-04T17:04:03+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://artofbokeh.com/kreatives</loc>
-  <lastmod>2020-04-05T10:33:32+00:00</lastmod>
+  <lastmod>2021-04-04T17:04:03+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://artofbokeh.com/architektur</loc>
-  <lastmod>2020-04-05T10:33:32+00:00</lastmod>
+  <lastmod>2021-04-04T17:04:03+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://artofbokeh.com/ueber-mich</loc>
-  <lastmod>2020-04-05T10:33:32+00:00</lastmod>
+  <lastmod>2021-04-04T17:04:03+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://artofbokeh.com/kontakt</loc>
-  <lastmod>2020-04-05T10:33:32+00:00</lastmod>
+  <lastmod>2021-04-04T17:04:03+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://artofbokeh.com/en/</loc>
-  <lastmod>2020-04-05T10:33:32+00:00</lastmod>
+  <loc>https://artofbokeh.com/4-tipps-fuer-die-wahl-des-hochzeitsfotografen</loc>
+  <lastmod>2021-04-04T17:04:03+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://artofbokeh.com/impressum</loc>
-  <lastmod>2020-04-05T10:33:32+00:00</lastmod>
+  <lastmod>2021-04-04T17:04:03+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://artofbokeh.com/datenschutzerklaerung</loc>
-  <lastmod>2020-04-05T10:33:32+00:00</lastmod>
+  <lastmod>2021-04-04T17:04:03+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://artofbokeh.com/en/work</loc>
-  <lastmod>2020-04-05T10:33:32+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://artofbokeh.com/hochzeiten</loc>
-  <lastmod>2020-04-05T10:33:32+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://artofbokeh.com/4-tipps-fuer-die-wahl-des-hochzeitsfotografen</loc>
-  <lastmod>2020-04-05T10:33:32+00:00</lastmod>
+  <lastmod>2021-04-04T17:04:03+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://artofbokeh.com/en/portraits</loc>
-  <lastmod>2020-04-05T10:33:32+00:00</lastmod>
+  <lastmod>2021-04-04T17:04:03+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://artofbokeh.com/en/creative</loc>
-  <lastmod>2020-04-05T10:33:32+00:00</lastmod>
+  <lastmod>2021-04-04T17:04:03+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://artofbokeh.com/en/architecture</loc>
-  <lastmod>2020-04-05T10:33:32+00:00</lastmod>
+  <lastmod>2021-04-04T17:04:03+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://artofbokeh.com/en/about</loc>
-  <lastmod>2020-04-05T10:33:32+00:00</lastmod>
+  <lastmod>2021-04-04T17:04:03+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://artofbokeh.com/en/contact</loc>
-  <lastmod>2020-04-05T10:33:32+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://artofbokeh.com/en/weddings</loc>
-  <lastmod>2020-04-05T10:33:32+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://artofbokeh.com/en/imprint</loc>
-  <lastmod>2020-04-05T10:33:32+00:00</lastmod>
+  <lastmod>2021-04-04T17:04:03+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://artofbokeh.com/en/privacy-policy</loc>
-  <lastmod>2020-04-05T10:33:32+00:00</lastmod>
+  <lastmod>2021-04-04T17:04:03+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://artofbokeh.com/blog</loc>
-  <lastmod>2020-04-05T10:33:32+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2021-04-04T17:04:03+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://artofbokeh.com/top-10-hochzeitslocations-im-harz</loc>
-  <lastmod>2020-04-05T10:33:32+00:00</lastmod>
+  <lastmod>2021-04-04T17:04:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://artofbokeh.com/en/imprint</loc>
+  <lastmod>2021-04-04T17:04:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://artofbokeh.com/en/</loc>
+  <lastmod>2021-04-04T17:04:03+00:00</lastmod>
   <priority>0.51</priority>
 </url>
-
-
 </urlset>
