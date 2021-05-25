@@ -10,6 +10,13 @@ body {
   color: #fff !important;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 iframe{
   margin: 0 auto; 
   display:block;
