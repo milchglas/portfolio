@@ -4,6 +4,13 @@ body {
   background: #fafaf8 !important;
 }
 
+/* Überschriften Hochzeit */
+@font-face {
+  font-family: "Derivia Regular";
+  src: url("../Derivia-Regular.woff") format('woff');
+  font-display: swap;
+}
+
 footer {
   background: #0f0f0f !important;
 }
@@ -20,6 +27,8 @@ nav {
   text-align: center;
   height: 8vh;
   font-family: "Martel";
+  font-size: 50px;
+
   color: #101010;
 }
 
