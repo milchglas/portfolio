@@ -327,52 +327,7 @@ nav #menu li a:hover {
   }
 }
 
-/* NAV WORK */
-#navwork {
-  /* Linke Navigation im Desktop View Hero Section */
-  position: fixed;
-  /* scrollt mit */
-  left: 0%;
-  /* am linken Rand */
-  font-family: 'Montserrat', sans-serif;
-  letter-spacing: 0.02em;
-  line-height: 5.5vh;
-  font-size: 5vh;
-  z-index: 1;
-  /* über allem anderen drüber */
-}
 
-#navwork li {
-  list-style: none;
-  /* Bulletpoint sind weg */
-  font-weight: 400;
-}
-
-#navwork li a {
-  color: rgba(255, 255, 255, 0.7);
-  transition: .3s ease-in-out;
-}
-
-#navwork li a:hover {
-  color: rgba(255, 255, 255, 1);
-  transition: .3s ease-in-out;
-  text-decoration: none;
-  /* sieht nicht aus wie ein Link */
-}
-
-@media(max-width: 1365px) {
-  #navwork {
-    line-height: 50px;
-    font-size: 40px;
-  }
-}
-
-@media(max-width: 768px) {
-  #navwork {
-    opacity: 0;
-    display: none;
-  }
-}
 
 /* FOOTER */
 .horizontal-line {
