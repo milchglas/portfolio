@@ -123,38 +123,3 @@
     height: 75vh;
   }
 }
-
-/* ARCHITECTURE */
-#text-work-architecture {
-  text-align: center;
-  color: #fff;
-}
-
-#text-work-architecture:hover {
-  text-decoration: none;
-}
-
-.container-work-architecture {
-  height: 550px;
-}
-
-.img1-work-architecture {
-  background: url(../img/architecture/work-architecture1.jpg) no-repeat 50% 50%;
-  background-size: cover;
-}
-
-.img2-work-architecture {
-  background: url(../img/architecture/work-architecture2.jpg) no-repeat 50% 50%;
-  background-size: cover;
-}
-
-.img3-work-architecture {
-  background: url(../img/architecture/work-architecture3.jpg) no-repeat 50% 50%;
-  background-size: cover;
-}
-
-@media(max-width: 768px) {
-  .container-work-architecture {
-    height: 75vh;
-  }
-}
