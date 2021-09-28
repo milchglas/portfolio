@@ -10,19 +10,6 @@ footer {
   font-family: "Roboto Mono" !important;
 }
 
-/* navigation static */
-nav {
-  position: static;
-}
-
-nav #menu {
-  position: absolute;
-  right: 8%;
-}
-
-#navwork {
-  position: static;
-}
 
 .hero2 {
   /* Main Content auf der Startseite */
