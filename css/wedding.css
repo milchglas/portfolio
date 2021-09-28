@@ -15,6 +15,15 @@ nav {
   position: static;
 }
 
+nav #menu {
+  position: absolute;
+  right: 8%;
+}
+
+#navwork {
+  position: static;
+}
+
 .hero2 {
   /* Main Content auf der Startseite */
   height: 92vh;
