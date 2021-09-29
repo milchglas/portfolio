@@ -605,18 +605,21 @@ textarea:focus {
 }
 
 
-
-
-
-
-
-
+.wedding-part1 {
+  display: flex;
+  font-family: "Martel";
+  font-weight: 400;
+  background: #fafaf8;
+  color: #464646;
+  height: 100vh;
+}
 
 
 
 
 /* CONTACT */
 .contact-wedding {
+  background-color: white;
   height: auto;
   min-height: 100vh;
   text-align: center;
@@ -752,74 +755,6 @@ display: none;
 }
 
 @media(max-width: 768px) {
-.wedding-part1 {
-  text-align: center;
-}
-
-.wedding-part1-right {
-  display: none;
-}
-
-.wedding-part1 img {
-  display: none;
-}
-
-.wedding-part3-right {
-  display: none;
-}
-
-.wedding-part3 .img1 {
-  display: none;
-}
-
-.pn-btn {
-  display: none;
-}
-
-.pn-btn2 {
-  display: none;
-}
-
-.wedding-part3 {
-  text-align: center;
-}
-
-.content3 {
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-.content3 button {
-  margin-top: 0;
-}
-
-.container-fluid h2 {
-  font-size: 40px;
-}
-
-.wedding-part1 h2 {
-  margin-top: 0;
-}
-
-.wedding-part2 h2 {
-  margin-top: 0;
-}
-
-.wedding-part3 h2 {
-  margin-top: 0;
-}
-
-.h2desktop {
-  display: none;
-}
-
-.h2mobile {
-  display: inline;
-}
-
-.wedding-part3 .text {
-  margin-top: 0vh;
-}
 
 .text {
   font-size: 15px;
