@@ -618,7 +618,7 @@ textarea:focus {
 .form-wedding {
   min-height: 80vh;
   height: auto;
-  color: grey;
+  color: #fff;
   margin-top: 10vh;
 }
 
