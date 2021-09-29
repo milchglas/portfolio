@@ -609,7 +609,6 @@ textarea:focus {
 /* CONTACT */
 .contact-wedding {
   background: #0f0f0f;
-  color: #fff;
   height: auto;
   min-height: 100vh;
   text-align: center;
@@ -619,7 +618,7 @@ textarea:focus {
 .form-wedding {
   min-height: 80vh;
   height: auto;
-  color: #fff;
+  color: grey;
   margin-top: 10vh;
 }
 
