@@ -617,7 +617,6 @@ textarea:focus {
 
 /* CONTACT */
 .contact-wedding {
-  background-color: white;
   height: auto;
   min-height: 100vh;
   text-align: center;
@@ -633,9 +632,7 @@ textarea:focus {
 
 #contact-form-wedding label {
   margin-top: 4vh;
-font-family: "Martel";
-color: #464646;
-font-size: 19px;
+  font-size: 19px;
 }
 
 #contact-name, #contact-email,
