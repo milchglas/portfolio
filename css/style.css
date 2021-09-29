@@ -614,7 +614,9 @@ textarea:focus {
   height: 100vh;
 }
 
-
+.wedding-part1 h3 {
+  color: #464646;
+}
 
 
 /* CONTACT */
