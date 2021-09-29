@@ -608,8 +608,8 @@ textarea:focus {
 
 /* CONTACT */
 .contact-wedding {
-  background: #0f0f0f !important;
-  color: #fff !important;
+  background: #0f0f0f;
+  color: #fff;
   height: auto;
   min-height: 100vh;
   text-align: center;
@@ -619,7 +619,7 @@ textarea:focus {
 .form-wedding {
   min-height: 80vh;
   height: auto;
-  color: #fff !important;
+  color: #fff;
   margin-top: 10vh;
 }
 
@@ -642,8 +642,8 @@ margin-right: 15%;
 padding: 10px 30px;
 /* Eingaben ein wenig eingeschoben */
 border: 0.75px solid #fff;
-background: #FBF5F1;
-color: #767676;
+background: #fff;
+color: #0f0f0f;
 resize: vertical;
 
 
@@ -663,16 +663,16 @@ outline: none;
 margin-top: 1vh;
 padding: 18px 4%;
 background: transparent;
-color: #FBF5F1;
-background: #101010;
+color: #fff;
+background: #0f0f0f;
 font-size: 18px;
 letter-spacing: 2px;
 margin-bottom: 10vh;
 }
 
 .send:hover {
-background: #FBF5F1;
-color: #101010;
+background: #fff;
+color: #0f0f0f;
 }
 
 /* Customize the label (the container) */
@@ -705,7 +705,7 @@ position: absolute;
 margin-left: -20px;
 height: 26px;
 width: 26px;
-background-color: #eee;
+background-color: #fff;
 }
 
 /* On mouse-over, add a grey background color */
@@ -715,7 +715,7 @@ background-color: #ccc;
 
 /* When the checkbox is checked, add a blue background */
 .container-check input:checked~.checkmark {
-background-color: #101010;
+background-color: #0f0f0f;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
