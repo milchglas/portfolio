@@ -605,23 +605,11 @@ textarea:focus {
 }
 
 
-.wedding-part1 {
-  display: flex;
-  font-family: "Martel";
-  font-weight: 400;
-  background: #fafaf8;
-  color: #464646;
-  height: 100vh;
-}
-
-.wedding-part1 h3 {
-  color: #464646;
-}
-
 
 /* CONTACT */
 .contact-wedding {
-  background-color: white;
+  background: #0f0f0f !important;
+  color: #fff !important;
   height: auto;
   min-height: 100vh;
   text-align: center;
@@ -631,6 +619,7 @@ textarea:focus {
 .form-wedding {
   min-height: 80vh;
   height: auto;
+  color: #fff !important;
   margin-top: 10vh;
 }
 
@@ -656,6 +645,8 @@ border: 0.75px solid #fff;
 background: #FBF5F1;
 color: #767676;
 resize: vertical;
+
+
 /* Fenster kann vertikal erweiter werden */
 }
 
