@@ -94,6 +94,7 @@ nav #menu {
   background: #fafaf8;
   color: #464646;
   text-align: left;
+  height: 100vh;
 }
 
 .content1 button {
