@@ -1,0 +1,125 @@
+/* IMG GRID events */
+.container-events {
+  height: 40vh;
+}
+
+.container2-events {
+  height: 52vh;
+}
+
+.container-hz-events {
+  height: 40vh;
+}
+
+.img-grid-heading {
+  text-align: center;
+  height: 8vh;
+}
+
+.img-grid-heading h2 {
+  font-size: 40px;
+}
+
+@media(max-width: 768px) {
+  .img-grid-heading h2 {
+    font-size: 20px;
+  }
+
+  .img-grid-heading {
+    height: 5vh;
+  }
+
+  .filler5 {
+    height: 15vh;
+  }
+
+  .container-events {
+    height: 75vh;
+    margin: 2.5vh 14px;
+  }
+
+  .container2-events {
+    height: 75vh;
+    margin: 2.5vh 14px;
+  }
+
+  .container-hz-events {
+    height: 38vh;
+    margin: 2.5vh 14px;
+  }
+}
+
+.img1-events {
+  background: url(../img/events/events1.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.img2-events {
+  background: url(../img/events/events2.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.img3-events {
+  background: url(../img/events/events3.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.img4-events {
+  background: url(../img/events/events4.jpg) no-repeat 30% 50%;
+  background-size: cover;
+}
+
+.img5-events {
+  background: url(../img/events/events5.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.img6-events {
+  background: url(../img/events/events6.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.img7-events {
+  background: url(../img/events/events7.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.img8-events {
+  background: url(../img/events/events8.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.img9-events {
+  background: url(../img/events/events9.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.img10-events {
+  background: url(../img/events/events10.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.img11-events {
+  background: url(../img/events/events11.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.img12-events {
+  background: url(../img/events/events12.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.img13-events {
+  background: url(../img/events/events13.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.img14-events {
+  background: url(../img/events/events14.jpg) no-repeat 50% 30%;
+  background-size: cover;
+}
+
+.img15-events {
+  background: url(../img/events/events15.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
